@@ -1,0 +1,1917 @@
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (19-OCT-1982):
+ @           CHECKING FOR LICENSES                                           
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (19-OCT-1982):
+ @           CHECKING FOR LICENSES                                           
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (19-OCT-1982):
+ @           THE MEMORY REQUIRED TO PROCESS THE GRID SECTION IS              
+ @               127796 BYTES                                                
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (19-OCT-1982):
+ @           UNSPECIFIED TOPS VALUES OBTAINED BY ADDING DZ                   
+ @           TO TOPS VALUE FOR LAYER ABOVE                                   
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (19-OCT-1982):
+ @           NEITHER OLDTRAN,OLDTRANR NOR NEWTRAN SPECIFIED                  
+ @           BLOCK CENTRE TRANSMISSIBILITIES TO BE CALCULATED                
+ @           USING  OLDTRAN                                                  
+  SOLVER DIRECTIONS ARE 312      ZXY
+  IN GLOBAL GRID        
+  NDIVI1 =     3
+  NDIVI2 =    10
+  NDIVI3 =    10
+
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (19-OCT-1982):
+ @           NUMBER OF ACTIVE CELLS IS 300                                   
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (19-OCT-1982):
+ @           THE MEMORY REQUIRED TO PROCESS THE SOLUTION SECTION IS          
+ @               688592 BYTES                                                
+
+ @--MESSAGE  AT TIME        0.0   DAYS    (19-OCT-1982):
+ @              62178 CHARACTER VARIABLES USED                               
+
+ @--WARNING  AT TIME        0.0   DAYS    (19-OCT-1982):
+ @           INCONSISTENT END POINTS IN SATURATION TABLE   1                 
+ @           THE MAXIMUM GAS SATURATION (1.0000)                             
+ @           PLUS THE CONNATE WATER SATURATION (0.1200)                      
+ @           MUST NOT EXCEED 1.0                                             
+
+ @--WARNING  AT TIME        0.0   DAYS    (19-OCT-1982):
+ @            NEGATIVE COMPRESSIBILITY FOUND IN GAS                          
+ @            PRESSURE TABLE     1 AND OIL PRESSURE                          
+ @            TABLE     1 AT A SAMPLE PRESSURE VALUE                         
+ @             6531.94138 . ADJUST SATURATED FLUID                           
+ @            PROPERTY VALUES AT THIS PRESSURE.                              
+ @            NEGATIVE COMPRESSIBILITIES OCCUR                               
+ @            FOR GAS SATURATIONS LESS THAN     0.01230                      
+
+ @--WARNING  AT TIME        0.0   DAYS    (19-OCT-1982):
+ @            NEGATIVE COMPRESSIBILITY FOUND IN GAS                          
+ @            PRESSURE TABLE     1 AND OIL PRESSURE                          
+ @            TABLE     1 AT A SAMPLE PRESSURE VALUE                         
+ @             6842.28621 . ADJUST SATURATED FLUID                           
+ @            PROPERTY VALUES AT THIS PRESSURE.                              
+ @            NEGATIVE COMPRESSIBILITIES OCCUR                               
+ @            FOR GAS SATURATIONS LESS THAN     0.07111                      
+
+ @--WARNING  AT TIME        0.0   DAYS    (19-OCT-1982):
+ @            NEGATIVE COMPRESSIBILITY FOUND IN GAS                          
+ @            PRESSURE TABLE     1 AND OIL PRESSURE                          
+ @            TABLE     1 AT A SAMPLE PRESSURE VALUE                         
+ @             7152.63103 . ADJUST SATURATED FLUID                           
+ @            PROPERTY VALUES AT THIS PRESSURE.                              
+ @            NEGATIVE COMPRESSIBILITIES OCCUR                               
+ @            FOR GAS SATURATIONS LESS THAN     0.12539                      
+
+ @--WARNING  AT TIME        0.0   DAYS    (19-OCT-1982):
+ @            NEGATIVE COMPRESSIBILITY FOUND IN GAS                          
+ @            PRESSURE TABLE     1 AND OIL PRESSURE                          
+ @            TABLE     1 AT A SAMPLE PRESSURE VALUE                         
+ @             7462.97586 . ADJUST SATURATED FLUID                           
+ @            PROPERTY VALUES AT THIS PRESSURE.                              
+ @            NEGATIVE COMPRESSIBILITIES OCCUR                               
+ @            FOR GAS SATURATIONS LESS THAN     0.17567                      
+
+ @--WARNING  AT TIME        0.0   DAYS    (19-OCT-1982):
+ @            NEGATIVE COMPRESSIBILITY FOUND IN GAS                          
+ @            PRESSURE TABLE     1 AND OIL PRESSURE                          
+ @            TABLE     1 AT A SAMPLE PRESSURE VALUE                         
+ @             7773.32069 . ADJUST SATURATED FLUID                           
+ @            PROPERTY VALUES AT THIS PRESSURE.                              
+ @            NEGATIVE COMPRESSIBILITIES OCCUR                               
+ @            FOR GAS SATURATIONS LESS THAN     0.22244                      
+
+ @--WARNING  AT TIME        0.0   DAYS    (19-OCT-1982):
+ @            NEGATIVE COMPRESSIBILITY FOUND IN GAS                          
+ @            PRESSURE TABLE     1 AND OIL PRESSURE                          
+ @            TABLE     1 AT A SAMPLE PRESSURE VALUE                         
+ @             8083.66552 . ADJUST SATURATED FLUID                           
+ @            PROPERTY VALUES AT THIS PRESSURE.                              
+ @            NEGATIVE COMPRESSIBILITIES OCCUR                               
+ @            FOR GAS SATURATIONS LESS THAN     0.26608                      
+
+ @--WARNING  AT TIME        0.0   DAYS    (19-OCT-1982):
+ @            NEGATIVE COMPRESSIBILITY FOUND IN GAS                          
+ @            PRESSURE TABLE     1 AND OIL PRESSURE                          
+ @            TABLE     1 AT A SAMPLE PRESSURE VALUE                         
+ @             8394.01034 . ADJUST SATURATED FLUID                           
+ @            PROPERTY VALUES AT THIS PRESSURE.                              
+ @            NEGATIVE COMPRESSIBILITIES OCCUR                               
+ @            FOR GAS SATURATIONS LESS THAN     0.30695                      
+
+ @--WARNING  AT TIME        0.0   DAYS    (19-OCT-1982):
+ @            NEGATIVE COMPRESSIBILITY FOUND IN GAS                          
+ @            PRESSURE TABLE     1 AND OIL PRESSURE                          
+ @            TABLE     1 AT A SAMPLE PRESSURE VALUE                         
+ @             8704.35517 . ADJUST SATURATED FLUID                           
+ @            PROPERTY VALUES AT THIS PRESSURE.                              
+ @            NEGATIVE COMPRESSIBILITIES OCCUR                               
+ @            FOR GAS SATURATIONS LESS THAN     0.34534                      
+
+ @--WARNING  AT TIME        0.0   DAYS    (19-OCT-1982):
+ @            NEGATIVE COMPRESSIBILITY FOUND IN GAS                          
+ @            PRESSURE TABLE     1 AND OIL PRESSURE                          
+ @            TABLE     1 AT A SAMPLE PRESSURE VALUE                         
+ @             9014.70000 . ADJUST SATURATED FLUID                           
+ @            PROPERTY VALUES AT THIS PRESSURE.                              
+ @            NEGATIVE COMPRESSIBILITIES OCCUR                               
+ @            FOR GAS SATURATIONS LESS THAN     0.38150                      
+ =============================================
+ ==   Total compressibility report:           
+ == Tcoil = total compressibility with Sg=0   
+ == Tcgas = total compressibility with So=0   
+ == Tc    = Sg.Tcgas + So.Tcoil               
+ == Minimum oil pressure 14.70000
+ == Maximum oil pressure 5014.700
+ == Minimum gas pressure 14.70000
+ == Maximum gas pressure 9014.700
+ =============================================
+  
+  Total compressibility -GAS PVT            1  -OIL PVT            1
+------------------------------------------------------------------------
+  
+    Press        Rssat       Rvsat        Bg         Bo         DBg/DPo     DBo/DPo     DRs/DPo     DRv/DPo      Tcoil       Tcgas
+    14.7000   0.0010000   0.0000000   166.6660      1.0620     -8.5213      0.0003    0.0003580   0.0000000   0.0558770   0.0511281
+   325.0448   0.1121034   0.0000000     9.8809      1.1633     -0.0300      0.0002    0.0003580   0.0000000   0.0028498   0.0030313
+   635.3897   0.2261034   0.0000000     5.0912      1.2271     -0.0080      0.0002    0.0003820   0.0000000   0.0014467   0.0015620
+   945.7345   0.3446552   0.0000000     3.4290      1.2821     -0.0036      0.0002    0.0003820   0.0000000   0.0008773   0.0010520
+  1256.0793   0.4349655   0.0000000     2.5850      1.3262     -0.0021      0.0001    0.0002650   0.0000000   0.0004166   0.0007930
+  1566.4241   0.5172069   0.0000000     2.0745      1.3687     -0.0013      0.0001    0.0002650   0.0000000   0.0002985   0.0006364
+  1876.7690   0.5994483   0.0000000     1.7323      1.4139     -0.0009      0.0002    0.0002650   0.0000000   0.0002182   0.0005314
+  2187.1138   0.6839310   0.0000000     1.4872      1.4568     -0.0007      0.0001    0.0002780   0.0000000   0.0001958   0.0004557
+  2497.4586   0.7702069   0.0000000     1.3029      1.4977     -0.0005      0.0001    0.0002780   0.0000000   0.0001514   0.0003993
+  2807.8034   0.8658621   0.0000000     1.1593      1.5374     -0.0004      0.0001    0.0003100   0.0000000   0.0001486   0.0003551
+  3118.1483   0.9651724   0.0000000     1.0442      1.5775     -0.0003      0.0001    0.0003400   0.0000000   0.0001477   0.0003207
+  3428.4931   1.0706897   0.0000000     0.9497      1.6163     -0.0003      0.0001    0.0003400   0.0000000   0.0001206   0.0002917
+  3738.8379   1.1762069   0.0000000     0.8708      1.6570     -0.0002      0.0001    0.0003400   0.0000000   0.0000975   0.0002675
+  4049.1828   1.2820000   0.0000000     0.8041      1.6992     -0.0002      0.0001    0.0003480   0.0000000   0.0000922   0.0002475
+  4359.5276   1.3900000   0.0000000     0.7467      1.7383     -0.0002      0.0001    0.0003480   0.0000000   0.0000754   0.0002298
+  4669.8724   1.4980000   0.0000000     0.6970      1.7792     -0.0001      0.0001    0.0003480   0.0000000   0.0000605   0.0002145
+  4980.2172   1.6060000   0.0000000     0.6535      1.8221     -0.0001      0.0001    0.0003480   0.0000000   0.0000471   0.0002011
+  5290.5621   1.7140000   0.0000000     0.6199      1.8671     -0.0001      0.0001    0.0003480   0.0000000   0.0000359   0.0001627
+  5600.9069   1.8220000   0.0000000     0.5901      1.9144     -0.0001      0.0002    0.0003480   0.0000000   0.0000257   0.0001549
+  5911.2517   1.9300000   0.0000000     0.5630      1.9641     -0.0001      0.0002    0.0003480   0.0000000   0.0000160   0.0001478
+  6221.5966   2.0380000   0.0000000     0.5383      2.0165     -0.0001      0.0002    0.0003480   0.0000000   0.0000069   0.0001413
+  6531.9414   2.1460000   0.0000000     0.5157      2.0718     -0.0001      0.0002    0.0003480   0.0000000  -0.0000017   0.0001354
+  6842.2862   2.2540000   0.0000000     0.4949      2.1302     -0.0001      0.0002    0.0003480   0.0000000  -0.0000099   0.0001299
+  7152.6310   2.3620000   0.0000000     0.4757      2.1919     -0.0001      0.0002    0.0003480   0.0000000  -0.0000179   0.0001249
+  7462.9759   2.4700000   0.0000000     0.4580      2.2574     -0.0001      0.0002    0.0003480   0.0000000  -0.0000256   0.0001202
+  7773.3207   2.5780000   0.0000000     0.4415      2.3269     -0.0001      0.0002    0.0003480   0.0000000  -0.0000332   0.0001159
+  8083.6655   2.6860000   0.0000000     0.4262      2.4008      0.0000      0.0002    0.0003480   0.0000000  -0.0000406   0.0001119
+  8394.0103   2.7940000   0.0000000     0.4119      2.4795      0.0000      0.0003    0.0003480   0.0000000  -0.0000479   0.0001081
+  8704.3552   2.9020000   0.0000000     0.3985      2.5636      0.0000      0.0003    0.0003480   0.0000000  -0.0000552   0.0001046
+  9014.7000   3.0100000   0.0000000     0.3860      2.6536      0.0000      0.0003    0.0003480   0.0000000  -0.0000625   0.0001013
+ =======================================================
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
+ =======================================================
+ ZZSS    1 78 78
+                RR      1  0  0
+ SR      1 22 22
+
+ @--WARNING  AT TIME        0.0   DAYS    (19-OCT-1982):
+ @           THE BOTTOM HOLE PRESSURE LIMIT FOR WELL INJECTOR                
+ @           HAS BEEN DEFAULTED. THE DEFAULT VALUE IS  100000.   PSIA        
+ IT= 0   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.01237( 10, 10,  3)  6.2D-05     0.00  0.00000  0.00000                              
+ WAT 0.00000(  1,  1,  1)  0.0D+00     0.00  0.00000  0.00000                              
+ GAS-0.12175(  1,  1,  1) -1.8D-04     0.00  0.00000  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00071 0.00000 0.00707         0.6D-04 0.0D+00-0.2D-03         0.01237 0.00000 0.12175                                         
+   1 0.00001 0.00000 0.00001         0.1D-18-0.1D-21-0.3D-18         0.00010 0.00000 0.00010                                         
+  ONLY MAXIMUM MET                      
+  0.1041E-03  0.1218E+00  0.1218E+00  0.1000E-02  0.1000E-03
+       LINIT= 1 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0         2       298 NTRAN=         2
+ IT= 1   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.04380(  1,  1,  1)  8.9D-05   323.27 -0.00024  0.00000                              
+ WAT 0.00000(  1,  1,  1) -3.7D-09   323.27 -0.00024  0.00000                              
+ GAS-0.07795(  1,  1,  1) -1.5D-04   323.27 -0.00024  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00253 0.00000 0.00450         0.9D-04-0.4D-08-0.2D-03         0.04380 0.00000 0.07795                                         
+   1 0.00000 0.00000 0.00000         0.2D-18 0.2D-22-0.1D-18         0.00002 0.00000 0.00002                                         
+  TARGET MET                      
+  0.2103E-04  0.1000E-03
+       LINIT= 1 NSCHP=         1 NCHOP=         0 NSTAT1,2,3=         0        59       241 NTRAN=        57
+ IT= 2   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.03877(  1,  1,  1)  7.8D-05   433.39 -0.00027  0.02000                              
+ WAT 0.00005(  1,  1,  1)  1.1D-07   433.39 -0.00027  0.02000                              
+ GAS-0.04085(  1,  1,  1) -8.1D-05   433.39 -0.00027  0.02000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00224 0.00000 0.00236         0.8D-04 0.1D-06-0.8D-04         0.03877 0.00005 0.04085                                         
+   1 0.00000 0.00000 0.00000        -0.4D-19 0.1D-23 0.4D-19         0.00000 0.00000 0.00000                                         
+  TARGET MET                      
+  0.1358E-05  0.1000E-03
+       LINIT= 1 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0        93       207 NTRAN=        52
+ IT= 3   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00188(  1,  1,  2)  5.9D-06   405.22 -0.00030  0.00000                              
+ WAT 0.00000(  1,  1,  1)  5.2D-12   414.79 -0.00030  0.05404                              
+ GAS-0.00170(  1,  1,  1) -1.1D-05   414.79 -0.00030  0.05404                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00014 0.00000 0.00014         0.6D-05 0.5D-11-0.1D-04         0.00188 0.00000 0.00170                                         
+   1 0.00000 0.00000 0.00000        -0.2D-19 0.3D-23 0.2D-19         0.00000 0.00000 0.00000                                         
+  TARGET MET                      
+  0.2475E-05  0.1000E-03
+       LINIT= 1 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       112       188 NTRAN=        51
+ IT= 4   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00000(  1,  2,  1) -6.8D-10    96.35 -0.00007  0.00070                              
+ WAT 0.00000(  1,  1,  1) -1.2D-12   421.94 -0.00031  0.05406                              
+ GAS 0.00000(  1,  1,  2)  1.4D-08   412.10 -0.00030  0.00170                              
+
+ STEP    1 TIME=    1.00  DAYS (  +1.0  DAYS INIT  4 ITS) (20-OCT-1982)          
+  PAV=  4796.9  PSIA   WCT=0.000 GOR=     1.27 MSCF/STB WGR=   0.0000 STB/MSCF   
+
+      PR.RATE   PR.TOTAL  IN.RATE   IN.TOTAL  MAX SATURN CHANGE   MAX TIME TRNC ERR
+
+ OIL   20000.     20000.       0.         0. -0.054(  1,  1,  1) -0.054(  1,  1,  1)
+ WAT       0.         0.       0.         0.  0.000(  1,  1,  1)  0.000(  1,  1,  1)
+ GAS   25400.     25400.  100000.    100000.  0.054(  1,  1,  1)  0.054(  1,  1,  1)
+
+      MAX DP =  421.94(  1,  1,  1)  MAX DRS=  0.0000(  8,  1,  3) 
+ IT= 0   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.06483(  1,  1,  1)  8.4D-05     0.00  0.00000  0.00000                              
+ WAT 0.00000( 10, 10,  1)  2.7D-13     0.00  0.00000  0.00000                              
+ GAS-0.08971(  1,  1,  1) -2.5D-04     0.00  0.00000  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00384 0.00000 0.00528         0.8D-04 0.3D-12-0.2D-03         0.06483 0.00000 0.08971                                         
+   1 0.00002 0.00000 0.00002         0.3D-18 0.1D-21 0.1D-17         0.00027 0.00000 0.00018          0.97249                        
+   2 0.00000 0.00000 0.00000         0.1D-19 0.3D-23 0.2D-19         0.00000 0.00000 0.00000                                         
+  TARGET MET                      
+  0.1425E-05  0.1000E-03
+       LINIT= 2 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       102       198 NTRAN=        18
+ IT= 1   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00100(  1,  1,  1) -5.5D-07   290.63 -0.00021  0.05658                              
+ WAT 0.00000(  1,  1,  3) -4.1D-09   292.15 -0.00021  0.00000                              
+ GAS 0.00779(  1,  1,  1)  1.4D-05   290.63 -0.00021  0.05658                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00010 0.00000 0.00047        -0.5D-06-0.4D-08 0.1D-04         0.00100 0.00000 0.00779                                         
+   1 0.00000 0.00000 0.00000         0.7D-19-0.7D-23 0.2D-19         0.00001 0.00000 0.00001                                         
+  TARGET MET                      
+  0.1298E-04  0.1000E-03
+       LINIT= 1 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0        87       213 NTRAN=        57
+ IT= 2   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00002(  1,  1,  1) -2.6D-08   273.19 -0.00020  0.05436                              
+ WAT 0.00000(  1,  1,  1) -7.6D-12   273.19 -0.00020  0.05436                              
+ GAS 0.00005(  1,  1,  1)  7.3D-08   273.19 -0.00020  0.05436                              
+
+ STEP    2 TIME=    2.36  DAYS (  +1.4  DAYS TRNC  2 ITS) (21-OCT-1982)          
+  PAV=  4800.9  PSIA   WCT=0.000 GOR=     1.27 MSCF/STB WGR=   0.0000 STB/MSCF   
+
+      PR.RATE   PR.TOTAL  IN.RATE   IN.TOTAL  MAX SATURN CHANGE   MAX TIME TRNC ERR
+
+ OIL   20000.     47202.       0.         0. -0.054(  1,  1,  1)  0.019(  1,  1,  1)
+ WAT       0.         0.       0.         0.  0.000(  1,  1,  3)  0.000(  1,  1,  1)
+ GAS   25400.     59947.  100000.    236010.  0.054(  1,  1,  1) -0.019(  1,  1,  1)
+
+      MAX DP =  275.93(  1,  1,  3)  MAX DRS=  0.0000(  4,  1,  3) 
+ IT= 0   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.11600(  1,  1,  1)  1.9D-04     0.00  0.00000  0.00000                              
+ WAT 0.00000( 10, 10,  1)  1.1D-12     0.00  0.00000  0.00000                              
+ GAS-0.16864(  1,  1,  1) -5.6D-04     0.00  0.00000  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00683 0.00000 0.01003         0.2D-03 0.1D-11-0.6D-03         0.11600 0.00000 0.16864                                         
+   1 0.00017 0.00000 0.00011         0.3D-17-0.4D-21 0.6D-18         0.00248 0.00000 0.00102          0.96263                        
+   2 0.00000 0.00000 0.00000         0.2D-18-0.1D-22-0.7D-20         0.00003 0.00000 0.00005                                         
+  TARGET MET                      
+  0.4936E-04  0.1000E-03
+       LINIT= 2 NSCHP=         3 NCHOP=         0 NSTAT1,2,3=         0       141       159 NTRAN=        74
+ IT= 1   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.01992(  1,  1,  2)  9.0D-05   311.55 -0.00009  0.01172                              
+ WAT 0.00014(  1,  1,  2)  6.6D-07   311.55 -0.00009  0.01172                              
+ GAS 0.11648(  1,  1,  1) -7.8D-05   311.43 -0.00023  0.07684                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00149 0.00001 0.00801         0.9D-04 0.7D-06-0.8D-04         0.01992 0.00014 0.11648                                         
+   1 0.00000 0.00000 0.00000        -0.1D-18 0.8D-22-0.2D-17         0.00002 0.00000 0.00003                                         
+  TARGET MET                      
+  0.3334E-04  0.1000E-03
+       LINIT= 1 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       115       185 NTRAN=        58
+ IT= 2   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00115(  1,  1,  1)  3.2D-06   249.00 -0.00018  0.06666                              
+ WAT 0.00000(  1,  1,  2)  7.6D-11   250.73 -0.00018  0.02493                              
+ GAS 0.00546(  1,  1,  1) -6.0D-06   249.00 -0.00018  0.06666                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00008 0.00000 0.00039         0.3D-05 0.8D-10-0.6D-05         0.00115 0.00000 0.00546                                         
+   1 0.00000 0.00000 0.00000         0.8D-20-0.2D-23 0.6D-20         0.00002 0.00000 0.00001                                         
+  TARGET MET                      
+  0.2332E-04  0.1000E-03
+       LINIT= 1 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       122       178 NTRAN=        55
+ IT= 3   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00002(  1,  2,  1) -1.1D-10   224.48 -0.00016  0.02830                              
+ WAT 0.00000(  1,  1,  2) -1.2D-13   252.72 -0.00018  0.02560                              
+ GAS 0.00002(  1,  1,  1)  2.4D-09   250.89 -0.00018  0.06568                              
+
+ STEP    3 TIME=    5.47  DAYS (  +3.1  DAYS TRNC  3 ITS) (24-OCT-1982)          
+  PAV=  4809.7  PSIA   WCT=0.000 GOR=     1.27 MSCF/STB WGR=   0.0000 STB/MSCF   
+
+      PR.RATE   PR.TOTAL  IN.RATE   IN.TOTAL  MAX SATURN CHANGE   MAX TIME TRNC ERR
+
+ OIL   20000.    109333.       0.         0. -0.065(  1,  1,  1)  0.058(  1,  1,  1)
+ WAT       0.         0.       0.         0.  0.000(  1,  1,  3)  0.000(  1,  1,  3)
+ GAS   25400.    138853.  100000.    546665.  0.066(  1,  1,  1) -0.058(  1,  1,  1)
+
+      MAX DP =  256.21(  1,  1,  3)  MAX DRS=  0.0000(  3,  1,  3) 
+ IT= 0   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.08255(  1,  1,  1)  2.5D-04     0.00  0.00000  0.00000                              
+ WAT 0.00000( 10, 10,  1)  2.0D-12     0.00  0.00000  0.00000                              
+ GAS-0.12633(  1,  1,  1) -7.4D-04     0.00  0.00000  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00581 0.00000 0.00876         0.3D-03 0.2D-11-0.7D-03         0.08255 0.00000 0.12633                                         
+   1 0.00038 0.00000 0.00037        -0.1D-17-0.1D-21-0.2D-18         0.00585 0.00000 0.00495          0.96711                        
+   2 0.00001 0.00000 0.00001         0.2D-20 0.2D-22-0.2D-18         0.00007 0.00000 0.00007                                         
+  TARGET MET                      
+  0.6941E-04  0.1000E-03
+       LINIT= 2 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       107       193 NTRAN=        49
+ IT= 1   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00754(  1,  2,  1) -6.5D-08   189.28 -0.00014  0.04777                              
+ WAT 0.00000(  2,  1,  1) -7.9D-09   189.60 -0.00014  0.04771                              
+ GAS 0.02292(  1,  1,  1)  2.7D-05   170.97 -0.00013  0.04303                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00088 0.00000 0.00140        -0.7D-07-0.8D-08 0.3D-04         0.00754 0.00000 0.02292                                         
+   1 0.00000 0.00000 0.00001         0.5D-19 0.5D-23 0.1D-18         0.00004 0.00000 0.00016          0.95775                        
+   2 0.00000 0.00000 0.00000         0.1D-20 0.9D-25 0.9D-20         0.00000 0.00000 0.00000                                         
+  TARGET MET                      
+  0.3947E-05  0.1000E-03
+       LINIT= 2 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0        70       230 NTRAN=        75
+ IT= 2   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00006(  1,  1,  1)  6.0D-09   146.49 -0.00011  0.04558                              
+ WAT 0.00000(  1,  1,  1) -1.4D-11   146.49 -0.00011  0.04558                              
+ GAS-0.00081(  1,  1,  1)  6.5D-08   146.49 -0.00011  0.04558                              
+
+ STEP    4 TIME=    9.53  DAYS (  +4.1  DAYS TRNC  2 ITS) (28-OCT-1982)          
+  PAV=  4820.9  PSIA   WCT=0.000 GOR=     1.27 MSCF/STB WGR=   0.0000 STB/MSCF   
+
+      PR.RATE   PR.TOTAL  IN.RATE   IN.TOTAL  MAX SATURN CHANGE   MAX TIME TRNC ERR
+
+ OIL   20000.    190585.       0.         0. -0.045(  1,  1,  1)  0.040(  1,  1,  1)
+ WAT       0.         0.       0.         0.  0.000(  2,  1,  1)  0.000(  1,  1,  3)
+ GAS   25400.    242042.  100000.    952923.  0.046(  1,  1,  1) -0.040(  1,  1,  1)
+
+      MAX DP =  188.36(  2,  1,  1)  MAX DRS=  0.0000(  3,  1,  3) 
+ IT= 0   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.07017(  1,  1,  1)  4.0D-04     0.00  0.00000  0.00000                              
+ WAT 0.00000( 10, 10,  1)  3.9D-12     0.00  0.00000  0.00000                              
+ GAS-0.11316(  1,  1,  1) -1.2D-03     0.00  0.00000  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00755 0.00000 0.01099         0.4D-03 0.4D-11-0.1D-02         0.07017 0.00000 0.11316                                         
+   1 0.00091 0.00000 0.00099         0.9D-17 0.4D-21 0.2D-16         0.01436 0.00000 0.01461          0.95591                        
+   2 0.00001 0.00000 0.00002        -0.4D-18-0.6D-23-0.2D-18         0.00017 0.00000 0.00015          0.88455 -0.0023                
+   3 0.00000 0.00000 0.00000        -0.5D-19-0.2D-23-0.2D-19         0.00000 0.00000 0.00001                                         
+  TARGET MET                      
+  0.5100E-05  0.1000E-03
+       LINIT= 3 NSCHP=         3 NCHOP=         0 NSTAT1,2,3=         0       144       156 NTRAN=       112
+ IT= 1   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.01975(  2,  2,  1)  9.8D-05   175.08 -0.00005  0.01167                              
+ WAT 0.00008(  2,  2,  1)  3.2D-07   175.08 -0.00005  0.01167                              
+ GAS-0.04030(  2,  2,  1) -9.4D-05   175.08 -0.00005  0.01167                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00163 0.00001 0.00459         0.1D-03 0.3D-06-0.9D-04         0.01975 0.00008 0.04030                                         
+   1 0.00011 0.00000 0.00008        -0.6D-18 0.6D-22-0.2D-17         0.00170 0.00000 0.00084          0.89229                        
+   2 0.00000 0.00000 0.00001        -0.2D-19 0.8D-23-0.3D-18         0.00005 0.00000 0.00014          0.91955 -0.0058                
+   3 0.00000 0.00000 0.00000         0.4D-20 0.3D-24-0.1D-19         0.00000 0.00000 0.00000                                         
+  TARGET MET                      
+  0.1609E-05  0.1000E-03
+       LINIT= 3 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       150       150 NTRAN=       106
+ IT= 2   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00151(  2,  3,  1)  5.0D-06   140.30 -0.00010  0.00000                              
+ WAT 0.00000(  2,  2,  1) -2.5D-11   168.62 -0.00012  0.03058                              
+ GAS-0.00210(  2,  3,  1) -8.5D-06   140.30 -0.00010  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00011 0.00000 0.00017         0.5D-05-0.3D-10-0.8D-05         0.00151 0.00000 0.00210                                         
+   1 0.00000 0.00000 0.00001        -0.3D-19 0.7D-25-0.2D-19         0.00004 0.00000 0.00008                                         
+  TARGET MET                      
+  0.8434E-04  0.1000E-03
+       LINIT= 1 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       122       178 NTRAN=       126
+ IT= 3   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00004(  2,  2,  1)  1.1D-09   169.58 -0.00012  0.03068                              
+ WAT 0.00000(  2,  2,  1) -9.3D-14   169.58 -0.00012  0.03068                              
+ GAS-0.00008(  1,  2,  1) -1.9D-09   171.50 -0.00013  0.06246                              
+
+ STEP    5 TIME=   15.93  DAYS (  +6.4  DAYS TRNC  3 ITS) (3-NOV-1982)           
+  PAV=  4839.1  PSIA   WCT=0.000 GOR=     1.26 MSCF/STB WGR=   0.0000 STB/MSCF   
+
+      PR.RATE   PR.TOTAL  IN.RATE   IN.TOTAL  MAX SATURN CHANGE   MAX TIME TRNC ERR
+
+ OIL   20000.    318565.       0.         0. -0.062(  2,  1,  1)  0.033(  1,  1,  1)
+ WAT       0.         0.       0.         0.  0.000(  1,  2,  1)  0.000(  2,  1,  2)
+ GAS   25275.    403777.  100000.   1592823.  0.062(  2,  1,  1) -0.034(  1,  1,  1)
+
+      MAX DP =  171.50(  1,  2,  1)  MAX DRS= -0.0064( 10, 10,  1) 
+ IT= 0   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.10487(  1,  2,  1)  6.8D-04     0.00  0.00000  0.00000                              
+ WAT 0.00000( 10, 10,  1)  7.6D-12     0.00  0.00000  0.00000                              
+ GAS-0.14466(  1,  2,  1) -2.0D-03     0.00  0.00000  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.01112 0.00000 0.01582         0.7D-03 0.8D-11-0.2D-02         0.10487 0.00000 0.14466                                         
+   1 0.00185 0.00000 0.00263        -0.8D-17-0.2D-21 0.8D-17         0.02719 0.00000 0.04080          0.92287                        
+   2 0.00006 0.00000 0.00007         0.1D-18-0.3D-22-0.4D-17         0.00082 0.00000 0.00077          0.82229 -0.0048                
+   3 0.00000 0.00000 0.00000        -0.3D-18-0.4D-23-0.6D-18         0.00003 0.00000 0.00004                                         
+  TARGET MET                      
+  0.4327E-04  0.1000E-03
+       LINIT= 3 NSCHP=         2 NCHOP=         0 NSTAT1,2,3=         0       120       180 NTRAN=        56
+ IT= 1   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.03415(  2,  2,  1)  5.6D-05   176.02 -0.00013  0.08701                              
+ WAT 0.00004(  1,  1,  3)  1.8D-07    94.16 -0.00003  0.00864                              
+ GAS-0.07507(  1,  1,  1) -2.2D-05    92.06 -0.00007  0.03127                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00304 0.00000 0.00585         0.6D-04 0.2D-06-0.2D-04         0.03415 0.00004 0.07507                                         
+   1 0.00007 0.00000 0.00014        -0.3D-18-0.2D-23 0.1D-17         0.00084 0.00000 0.00191          0.88184                        
+   2 0.00000 0.00000 0.00001        -0.7D-19 0.1D-23 0.2D-18         0.00004 0.00000 0.00010                                         
+  TARGET MET                      
+  0.9820E-04  0.1000E-03
+       LINIT= 2 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0        84       216 NTRAN=       104
+ IT= 2   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00067(  2,  2,  1)  5.5D-07   175.61 -0.00013  0.07260                              
+ WAT 0.00000(  1,  1,  3) -5.7D-12    89.31 -0.00007  0.02036                              
+ GAS 0.00909(  2,  2,  1) -1.1D-06   175.61 -0.00013  0.07260                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00006 0.00000 0.00063         0.5D-06-0.6D-11-0.1D-05         0.00067 0.00000 0.00909                                         
+   1 0.00002 0.00000 0.00003        -0.6D-19-0.2D-23 0.2D-18         0.00028 0.00000 0.00035          0.89726                        
+   2 0.00000 0.00000 0.00000        -0.1D-19-0.3D-25-0.1D-19         0.00002 0.00000 0.00004                                         
+  TARGET MET                      
+  0.3903E-04  0.1000E-03
+       LINIT= 2 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       149       151 NTRAN=       107
+ IT= 3   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00004(  2,  2,  1)  4.6D-08   173.78 -0.00013  0.07069                              
+ WAT 0.00000(  2,  2,  1) -1.5D-13   173.78 -0.00013  0.07069                              
+ GAS 0.00004(  1,  2,  1) -7.6D-08   145.70 -0.00011  0.06554                              
+
+ STEP    6 TIME=   26.97  DAYS ( +11.0  DAYS TRNC  3 ITS) (14-NOV-1982)          
+  PAV=  4872.5  PSIA   WCT=0.000 GOR=     1.24 MSCF/STB WGR=   0.0000 STB/MSCF   
+
+      PR.RATE   PR.TOTAL  IN.RATE   IN.TOTAL  MAX SATURN CHANGE   MAX TIME TRNC ERR
+
+ OIL   20000.    539394.       0.         0. -0.071(  2,  2,  1)  0.042(  2,  1,  1)
+ WAT       0.         0.       0.         0.  0.000(  2,  2,  1)  0.000(  2,  1,  1)
+ GAS   24826.    677898.  100000.   2696972.  0.071(  2,  2,  1) -0.042(  2,  1,  1)
+
+      MAX DP =  173.78(  2,  2,  1)  MAX DRS= -0.0224( 10, 10,  3) 
+ IT= 0   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.10580(  2,  2,  1)  1.0D-03     0.00  0.00000  0.00000                              
+ WAT 0.00000( 10, 10,  1)  1.3D-11     0.00  0.00000  0.00000                              
+ GAS-0.14220(  2,  1,  1) -3.1D-03     0.00  0.00000  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.01419 0.00000 0.01964         0.1D-02 0.1D-10-0.3D-02         0.10580 0.00000 0.14220                                         
+   1 0.00310 0.00000 0.00461        -0.9D-17 0.1D-21-0.2D-17         0.03712 0.00000 0.07087          0.92301                        
+   2 0.00026 0.00000 0.00036        -0.7D-18 0.3D-23-0.9D-18         0.00396 0.00000 0.00392          0.73007 -0.0083                
+   3 0.00002 0.00000 0.00003        -0.9D-18 0.1D-23-0.8D-19         0.00024 0.00000 0.00031          0.83891 -0.0018 -0.0035        
+   4 0.00000 0.00000 0.00000        -0.2D-18 0.2D-24 0.4D-19         0.00001 0.00000 0.00001                                         
+  TARGET MET                      
+  0.1371E-04  0.1000E-03
+       LINIT= 4 NSCHP=         5 NCHOP=         0 NSTAT1,2,3=         0       218        82 NTRAN=       105
+ IT= 1   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.05602(  4,  1,  1)  2.4D-04   148.38 -0.00001  0.00490                              
+ WAT 0.00010(  4,  1,  1)  2.6D-07   148.38 -0.00001  0.00490                              
+ GAS 0.17851(  2,  2,  1) -1.8D-04   152.97 -0.00011  0.09651                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00573 0.00001 0.02054         0.2D-03 0.3D-06-0.2D-03         0.05602 0.00010 0.17851                                         
+   1 0.00059 0.00000 0.00081        -0.3D-19-0.1D-21 0.1D-16         0.00708 0.00000 0.00827          0.71769                        
+   2 0.00007 0.00000 0.00022         0.1D-18-0.3D-22 0.1D-17         0.00092 0.00000 0.00320          0.82841 -0.0150                
+   3 0.00001 0.00000 0.00001         0.5D-19-0.3D-23 0.6D-19         0.00005 0.00000 0.00012                                         
+  ONLY MAXIMUM MET                      
+  0.1238E-03  0.1785E+00  0.1785E+00  0.1000E-02  0.1000E-03
+       LINIT= 3 NSCHP=         3 NCHOP=         0 NSTAT1,2,3=         0       155       145 NTRAN=       151
+ IT= 2   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.01184(  5,  1,  1)  3.0D-05   125.82 -0.00009  0.00000                              
+ WAT 0.00000(  3,  3,  1) -2.5D-09   143.55 -0.00011  0.01925                              
+ GAS 0.03131(  2,  2,  1) -4.1D-05   132.77 -0.00010  0.07933                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00115 0.00000 0.00267         0.3D-04-0.3D-08-0.4D-04         0.01184 0.00000 0.03131                                         
+   1 0.00008 0.00000 0.00016        -0.1D-18 0.2D-23 0.5D-19         0.00124 0.00000 0.00207          0.84337                        
+   2 0.00001 0.00000 0.00001        -0.7D-19 0.2D-24 0.4D-19         0.00011 0.00000 0.00010          0.66071  0.0010                
+   3 0.00000 0.00000 0.00000        -0.1D-19 0.1D-24 0.3D-20         0.00001 0.00000 0.00002                                         
+  TARGET MET                      
+  0.2201E-04  0.1000E-03
+       LINIT= 3 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       192       108 NTRAN=       145
+ IT= 3   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00078(  4,  3,  1)  2.8D-06   126.18 -0.00009  0.00000                              
+ WAT 0.00000(  4,  1,  1) -7.5D-13   149.07 -0.00011  0.05449                              
+ GAS-0.00119(  4,  3,  1) -4.9D-06   126.18 -0.00009  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00007 0.00000 0.00010         0.3D-05-0.8D-12-0.5D-05         0.00078 0.00000 0.00119                                         
+   1 0.00000 0.00000 0.00001         0.8D-20 0.4D-24 0.3D-19         0.00004 0.00000 0.00006                                         
+  TARGET MET                      
+  0.6344E-04  0.1000E-03
+       LINIT= 1 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       141       159 NTRAN=        53
+ IT= 4   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00004(  2,  2,  1) -2.1D-10   130.12 -0.00010  0.07643                              
+ WAT 0.00000(  3,  3,  1) -1.4D-14   144.59 -0.00011  0.02538                              
+ GAS-0.00006(  1,  2,  1)  5.2D-10    93.91 -0.00007  0.05254                              
+
+ STEP    7 TIME=   43.95  DAYS ( +17.0  DAYS TRNC  4 ITS) (1-DEC-1982)           
+  PAV=  4923.5  PSIA   WCT=0.000 GOR=     1.24 MSCF/STB WGR=   0.0000 STB/MSCF   
+
+      PR.RATE   PR.TOTAL  IN.RATE   IN.TOTAL  MAX SATURN CHANGE   MAX TIME TRNC ERR
+
+ OIL   20000.    879026.       0.         0. -0.077(  3,  1,  1)  0.048(  1,  2,  1)
+ WAT       0.         0.       0.         0.  0.000(  3,  2,  1)  0.000(  2,  2,  2)
+ GAS   24782.   1098733.  100000.   4395128.  0.077(  3,  1,  1) -0.048(  1,  2,  1)
+
+      MAX DP =  152.57(  3,  2,  1)  MAX DRS= -0.0195( 10, 10,  3) 
+ IT= 0   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.10920(  1,  3,  1)  1.5D-03     0.00  0.00000  0.00000                              
+ WAT 0.00000( 10, 10,  1)  2.0D-11     0.00  0.00000  0.00000                              
+ GAS-0.14714(  2,  2,  1) -4.4D-03     0.00  0.00000  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.01719 0.00000 0.02294         0.2D-02 0.2D-10-0.4D-02         0.10920 0.00000 0.14714                                         
+   1 0.00547 0.00000 0.00741        -0.4D-16 0.3D-21 0.4D-16         0.05853 0.00000 0.10254          0.89406                        
+   2 0.00047 0.00000 0.00059        -0.6D-17-0.5D-22 0.1D-16         0.00539 0.00000 0.00593          0.66292 -0.0141                
+   3 0.00008 0.00000 0.00007        -0.9D-18-0.8D-24 0.4D-17         0.00113 0.00000 0.00063          0.84875 -0.0033 -0.0063        
+   4 0.00000 0.00000 0.00001         0.3D-19 0.6D-24-0.9D-19         0.00004 0.00000 0.00012                                         
+  ONLY MAXIMUM MET                      
+  0.1250E-03  0.1471E+00  0.1471E+00  0.1000E-02  0.1000E-03
+       LINIT= 4 NSCHP=         6 NCHOP=         0 NSTAT1,2,3=         0       142       158 NTRAN=       125
+ IT= 1   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.04604(  5,  1,  1)  2.9D-04   129.01 -0.00002  0.00954                              
+ WAT 0.00008(  5,  1,  1)  6.5D-07   129.01 -0.00002  0.00954                              
+ GAS-0.16705(  1,  1,  1) -2.5D-04    23.94 -0.00002  0.02720                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00584 0.00001 0.01949         0.3D-03 0.6D-06-0.3D-03         0.04604 0.00008 0.16705                                         
+   1 0.00163 0.00000 0.00133         0.4D-18-0.9D-22 0.2D-16         0.01846 0.00000 0.01068          0.64031                        
+   2 0.00020 0.00000 0.00064         0.1D-18-0.2D-22-0.2D-17         0.00205 0.00000 0.00933          0.70828 -0.0231                
+   3 0.00002 0.00000 0.00005         0.6D-19-0.6D-23 0.4D-18         0.00024 0.00000 0.00066          0.85089 -0.0018 -0.0055        
+   4 0.00000 0.00000 0.00000         0.2D-19-0.9D-24 0.5D-19         0.00002 0.00000 0.00006                                         
+  TARGET MET                      
+  0.6181E-04  0.1000E-03
+       LINIT= 4 NSCHP=         2 NCHOP=         0 NSTAT1,2,3=         0       183       117 NTRAN=       153
+ IT= 2   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00897(  1,  6,  1)  2.4D-05   113.33 -0.00008  0.00000                              
+ WAT 0.00000(  2,  5,  1) -7.6D-10   122.89 -0.00009  0.01976                              
+ GAS-0.00968(  1,  6,  1) -3.6D-05   113.33 -0.00008  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00073 0.00000 0.00087         0.2D-04-0.8D-09-0.4D-04         0.00897 0.00000 0.00968                                         
+   1 0.00004 0.00000 0.00004         0.4D-18-0.6D-24-0.5D-18         0.00029 0.00000 0.00037          0.73527                        
+   2 0.00001 0.00000 0.00001         0.7D-19-0.2D-24 0.2D-18         0.00005 0.00000 0.00014          0.64529 -0.0445                
+   3 0.00000 0.00000 0.00000         0.5D-20 0.3D-25 0.1D-18         0.00001 0.00000 0.00001                                         
+  TARGET MET                      
+  0.8019E-05  0.1000E-03
+       LINIT= 3 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       176       124 NTRAN=       171
+ IT= 3   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00032(  6,  2,  1)  6.1D-07   108.79 -0.00008  0.00000                              
+ WAT 0.00000(  1,  5,  1) -3.6D-13   127.98 -0.00009  0.04842                              
+ GAS-0.00046(  6,  2,  1) -1.0D-06   108.79 -0.00008  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00002 0.00000 0.00003         0.6D-06-0.4D-12-0.1D-05         0.00032 0.00000 0.00046                                         
+   1 0.00000 0.00000 0.00000        -0.3D-20 0.1D-24 0.1D-19         0.00002 0.00000 0.00002                                         
+  TARGET MET                      
+  0.2102E-04  0.1000E-03
+       LINIT= 1 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       178       122 NTRAN=        48
+ IT= 4   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00002(  2,  2,  1) -3.9D-10    80.17 -0.00006  0.05986                              
+ WAT 0.00000(  6,  2,  1) -6.8D-16   108.86 -0.00008  0.00038                              
+ GAS-0.00002(  2,  2,  1)  4.4D-10    80.17 -0.00006  0.05986                              
+
+ STEP    8 TIME=   68.39  DAYS ( +24.4  DAYS TRNC  4 ITS) (26-DEC-1982)          
+  PAV=  4995.1  PSIA   WCT=0.000 GOR=     1.25 MSCF/STB WGR=   0.0000 STB/MSCF   
+
+      PR.RATE   PR.TOTAL  IN.RATE   IN.TOTAL  MAX SATURN CHANGE   MAX TIME TRNC ERR
+
+ OIL   20000.   1367898.       0.         0. -0.079(  2,  3,  1)  0.050(  2,  2,  1)
+ WAT       0.         0.       0.         0.  0.000(  2,  4,  1)  0.000(  3,  1,  1)
+ GAS   24974.   1709187.  100000.   6839489.  0.079(  2,  3,  1) -0.050(  2,  2,  1)
+
+      MAX DP =  130.70(  2,  4,  1)  MAX DRS= -0.0061( 10, 10,  3) 
+ IT= 0   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.11101(  3,  2,  1)  2.1D-03     0.00  0.00000  0.00000                              
+ WAT 0.00000( 10, 10,  1)  2.9D-11     0.00  0.00000  0.00000                              
+ GAS-0.14392(  3,  2,  1) -6.2D-03     0.00  0.00000  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.02056 0.00000 0.02669         0.2D-02 0.3D-10-0.6D-02         0.11101 0.00000 0.14392                                         
+   1 0.00716 0.00000 0.01154        -0.1D-15 0.8D-21-0.2D-15         0.06690 0.00000 0.12572          0.90745                        
+   2 0.00087 0.00000 0.00104        -0.2D-16 0.5D-23 0.1D-16         0.00827 0.00000 0.01225          0.71614 -0.0222                
+   3 0.00018 0.00000 0.00019        -0.2D-17 0.9D-23 0.3D-17         0.00188 0.00000 0.00188          0.56351  0.0051 -0.0447        
+   4 0.00003 0.00000 0.00006        -0.1D-17 0.3D-23-0.3D-18         0.00017 0.00000 0.00064          0.74476  0.0009 -0.0061 -0.0134
+   5 0.00000 0.00000 0.00001        -0.4D-18-0.1D-24 0.1D-18         0.00003 0.00000 0.00010                                         
+  ONLY MAXIMUM MET                      
+  0.1009E-03  0.1439E+00  0.1439E+00  0.1000E-02  0.1000E-03
+       LINIT= 5 NSCHP=         8 NCHOP=         0 NSTAT1,2,3=         0       148       152 NTRAN=        62
+ IT= 1   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.04912(  4,  4,  1)  5.0D-04   129.28 -0.00004  0.01683                              
+ WAT 0.00008(  6,  1,  1)  1.0D-06   131.29 -0.00002  0.01142                              
+ GAS 0.17645(  2,  1,  1) -5.3D-04    62.94 -0.00005  0.02311                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00784 0.00001 0.02485         0.5D-03 0.1D-05-0.5D-03         0.04912 0.00008 0.17645                                         
+   1 0.00363 0.00000 0.00702        -0.8D-17 0.4D-22-0.6D-16         0.04170 0.00000 0.08815          0.38906                        
+   2 0.00090 0.00000 0.00101        -0.1D-19 0.3D-22-0.6D-16         0.00899 0.00000 0.00744          0.85612  0.0562                
+   3 0.00008 0.00000 0.00016        -0.1D-17 0.1D-22-0.7D-17         0.00106 0.00000 0.00198          0.75777 -0.0064 -0.0106        
+   4 0.00001 0.00000 0.00001        -0.3D-18 0.2D-23-0.2D-17         0.00012 0.00000 0.00017                                         
+  ONLY MAXIMUM MET                      
+  0.1709E-03  0.1764E+00  0.1764E+00  0.1000E-02  0.1000E-03
+       LINIT= 4 NSCHP=         2 NCHOP=         0 NSTAT1,2,3=         0       177       123 NTRAN=       193
+ IT= 2   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00884(  1,  7,  1)  5.8D-05   124.77 -0.00009  0.00000                              
+ WAT 0.00000(  6,  2,  1)  2.6D-09   129.75 -0.00009  0.01962                              
+ GAS-0.02479(  2,  1,  2) -8.4D-05    25.23 -0.00002  0.01883                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00124 0.00000 0.00295         0.6D-04 0.3D-08-0.8D-04         0.00884 0.00000 0.02479                                         
+   1 0.00027 0.00000 0.00098        -0.3D-18 0.6D-23 0.3D-17         0.00398 0.00000 0.01264          0.51906                        
+   2 0.00004 0.00000 0.00010         0.3D-18 0.5D-24-0.6D-18         0.00030 0.00000 0.00111          0.76032 -0.0008                
+   3 0.00001 0.00000 0.00001         0.1D-18 0.2D-24-0.2D-18         0.00006 0.00000 0.00013          0.87453  0.0059 -0.0336        
+   4 0.00000 0.00000 0.00000        -0.5D-20-0.9D-26-0.4D-19         0.00001 0.00000 0.00001                                         
+  TARGET MET                      
+  0.9863E-05  0.1000E-03
+       LINIT= 4 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       173       127 NTRAN=       186
+ IT= 3   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00024(  2,  6,  1)  9.5D-08   129.70 -0.00010  0.02514                              
+ WAT 0.00000(  1,  2,  2) -1.8D-12    30.36 -0.00002  0.02357                              
+ GAS-0.00420(  2,  1,  1) -1.3D-07    29.80 -0.00002  0.03129                              
+
+ NON-CONVERGENCE BECAUSE TOLERANCE FOR MAXIMUM NORM EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00003 0.00000 0.00039         0.1D-06-0.2D-11-0.1D-06         0.00024 0.00000 0.00420                                         
+   1 0.00001 0.00000 0.00003         0.2D-19 0.3D-24 0.1D-18         0.00011 0.00000 0.00038          0.51305                        
+   2 0.00000 0.00000 0.00000         0.6D-20 0.3D-25 0.1D-20         0.00002 0.00000 0.00003                                         
+  TARGET MET                      
+  0.2851E-04  0.1000E-03
+       LINIT= 2 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       229        71 NTRAN=       138
+ IT= 4   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00002(  1,  3,  1) -2.6D-10    69.92 -0.00005  0.04959                              
+ WAT 0.00000(  2,  1,  2) -2.5D-15    30.20 -0.00002  0.02327                              
+ GAS 0.00003(  2,  2,  1)  2.9D-10    55.26 -0.00004  0.04620                              
+
+ STEP    9 TIME=  102.91  DAYS ( +34.5  DAYS TRNC  4 ITS) (29-JAN-1983)          
+  PAV=  5095.9  PSIA   WCT=0.000 GOR=     1.25 MSCF/STB WGR=   0.0000 STB/MSCF   
+
+      PR.RATE   PR.TOTAL  IN.RATE   IN.TOTAL  MAX SATURN CHANGE   MAX TIME TRNC ERR
+
+ OIL   20000.   2058234.       0.         0. -0.081(  4,  2,  1)  0.046(  2,  3,  1)
+ WAT       0.         0.       0.         0.  0.000(  2,  5,  1)  0.000( 10, 10,  3)
+ GAS   24919.   2569298.  100000.  10291169.  0.081(  4,  2,  1) -0.047(  2,  3,  1)
+
+      MAX DP =  132.21(  2,  5,  1)  MAX DRS=  0.0000(  5,  1,  3) 
+ IT= 0   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.11757(  2,  4,  1)  3.1D-03     0.00  0.00000  0.00000                              
+ WAT 0.00000( 10, 10,  1)  3.9D-11     0.00  0.00000  0.00000                              
+ GAS-0.15049(  3,  3,  1) -9.1D-03     0.00  0.00000  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.02611 0.00000 0.03341         0.3D-02 0.4D-10-0.9D-02         0.11757 0.00000 0.15049                                         
+   1 0.01251 0.00000 0.02024        -0.2D-16 0.6D-21 0.1D-15         0.08842 0.00000 0.22697          0.80554                        
+   2 0.00458 0.00000 0.00443        -0.4D-17 0.1D-21 0.3D-16         0.04531 0.00000 0.04020          0.43782 -0.1751                
+   3 0.00128 0.00000 0.00200         0.7D-18 0.2D-22 0.4D-17         0.01033 0.00000 0.01662          0.67704  0.0076  0.0235        
+   4 0.00026 0.00000 0.00025         0.1D-17 0.1D-22 0.3D-17         0.00266 0.00000 0.00184          0.72758  0.0082 -0.0292  0.0343
+   5 0.00004 0.00000 0.00006         0.7D-18 0.3D-23 0.1D-17         0.00028 0.00000 0.00058          0.83138  0.0000  0.0008 -0.0232
+   6 0.00000 0.00000 0.00001         0.1D-18 0.3D-24 0.3D-18         0.00003 0.00000 0.00005                                         
+  TARGET MET                      
+  0.4508E-04  0.1000E-03
+       LINIT= 6 NSCHP=        35 NCHOP=         0 NSTAT1,2,3=         0       183       117 NTRAN=       104
+ IT= 1   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.11381(  5,  4,  1)  6.0D-04   165.24 -0.00002  0.01131                              
+ WAT 0.00010(  7,  1,  1)  5.8D-06   169.65 -0.00002  0.01162                              
+ GAS 0.88533(  2,  2,  1) -4.5D-04    83.15 -0.00006  0.03338                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.01515 0.00002 0.06901         0.6D-03 0.6D-05-0.4D-03         0.11381 0.00010 0.88533                                         
+   1 0.00720 0.00000 0.00819         0.2D-18-0.1D-21 0.1D-15         0.07145 0.00000 0.08342          0.28767                        
+   2 0.00256 0.00000 0.00448         0.2D-17-0.7D-22 0.2D-16         0.01999 0.00000 0.04534          0.75834  0.1045                
+   3 0.00039 0.00000 0.00089        -0.2D-17-0.2D-22 0.2D-16         0.00328 0.00000 0.00984          0.76061 -0.0092 -0.0309        
+   4 0.00008 0.00000 0.00009        -0.3D-18-0.4D-23 0.3D-17         0.00065 0.00000 0.00084                                         
+  ONLY MAXIMUM MET                      
+  0.8392E-03  0.8853E+00  0.8853E+00  0.1000E-02  0.1000E-03
+       LINIT= 4 NSCHP=         3 NCHOP=         0 NSTAT1,2,3=         0       187       113 NTRAN=       202
+ IT= 2   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.02853(  5,  5,  1)  6.0D-05   162.64 -0.00012  0.02000                              
+ WAT 0.00000(  5,  5,  1) -3.5D-11   162.64 -0.00012  0.02000                              
+ GAS 0.04052(  2,  2,  1) -9.4D-05    54.95 -0.00004  0.04227                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00336 0.00000 0.00472         0.6D-04-0.4D-10-0.9D-04         0.02853 0.00000 0.04052                                         
+   1 0.00052 0.00000 0.00136        -0.5D-18-0.1D-23 0.8D-17         0.00667 0.00000 0.01475          0.40867                        
+   2 0.00012 0.00000 0.00049         0.3D-20-0.5D-24 0.5D-18         0.00134 0.00000 0.00620          0.68019  0.0113                
+   3 0.00002 0.00000 0.00006         0.2D-19-0.3D-24 0.1D-18         0.00013 0.00000 0.00061          0.93712  0.0070 -0.0010        
+   4 0.00001 0.00000 0.00001         0.3D-19 0.2D-25 0.3D-19         0.00005 0.00000 0.00008                                         
+  TARGET MET                      
+  0.7815E-04  0.1000E-03
+       LINIT= 4 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       183       117 NTRAN=       154
+ IT= 3   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00619(  2,  2,  2)  2.9D-05    59.08 -0.00004 -0.00226                              
+ WAT 0.00000(  2,  2,  2) -1.6D-12    59.08 -0.00004 -0.00226                              
+ GAS-0.00884(  2,  2,  2) -4.9D-05    59.08 -0.00004 -0.00226                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00045 0.00000 0.00069         0.3D-04-0.2D-11-0.5D-04         0.00619 0.00000 0.00884                                         
+   1 0.00015 0.00000 0.00019         0.1D-18-0.1D-23 0.1D-17         0.00170 0.00000 0.00210          0.34606                        
+   2 0.00006 0.00000 0.00010        -0.4D-19-0.9D-24 0.9D-18         0.00055 0.00000 0.00117          0.79345  0.0676                
+   3 0.00001 0.00000 0.00002        -0.3D-19-0.5D-24 0.6D-18         0.00007 0.00000 0.00019          0.87431  0.0082 -0.0375        
+   4 0.00000 0.00000 0.00000         0.1D-19-0.6D-25 0.6D-19         0.00001 0.00000 0.00002                                         
+  TARGET MET                      
+  0.2380E-04  0.1000E-03
+       LINIT= 4 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       173       127 NTRAN=        40
+ IT= 4   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00006(  6,  6,  1)  3.7D-09   156.13 -0.00011  0.00000                              
+ WAT 0.00000(  2,  2,  1) -3.3D-13    59.43 -0.00004  0.03471                              
+ GAS 0.00006(  6,  6,  1)  1.2D-09   156.13 -0.00011  0.00000                              
+
+ STEP   10 TIME=  153.51  DAYS ( +50.6  DAYS TRNC  4 ITS) (21-MAR-1983)          
+  PAV=  5240.2  PSIA   WCT=0.000 GOR=     1.24 MSCF/STB WGR=   0.0000 STB/MSCF   
+
+      PR.RATE   PR.TOTAL  IN.RATE   IN.TOTAL  MAX SATURN CHANGE   MAX TIME TRNC ERR
+
+ OIL   20000.   3070211.       0.         0. -0.090(  4,  4,  1) -0.052(  5,  4,  1)
+ WAT       0.         0.       0.         0.  0.000(  7,  1,  1)  0.000(  2,  4,  1)
+ GAS   24871.   3827724.  100000.  15351054.  0.091(  4,  4,  1)  0.052(  5,  4,  1)
+
+      MAX DP =  165.83(  7,  1,  1)  MAX DRS=  0.0000(  1,  4,  3) 
+ IT= 0   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.12321(  4,  4,  1)  4.3D-03     0.00  0.00000  0.00000                              
+ WAT 0.00000( 10, 10,  1)  4.7D-11     0.00  0.00000  0.00000                              
+ GAS-0.15304(  4,  4,  1) -1.2D-02     0.00  0.00000  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.03067 0.00000 0.03981         0.4D-02 0.5D-10-0.1D-01         0.12321 0.00000 0.15304                                         
+   1 0.02839 0.00000 0.03980        -0.2D-15-0.5D-21-0.5D-16         0.19752 0.00000 0.42294          0.92256                        
+   2 0.00939 0.00000 0.01863        -0.9D-16-0.1D-21 0.1D-16         0.06704 0.00000 0.17542          0.56148  0.0257                
+   3 0.00469 0.00000 0.00922        -0.1D-16-0.3D-22 0.4D-16         0.05671 0.00000 0.09672          0.28443  0.0594 -0.1468        
+   4 0.00125 0.00000 0.00218        -0.1D-16-0.3D-22-0.4D-17         0.01383 0.00000 0.02081          0.71162 -0.0064 -0.0730  0.1256
+   5 0.00028 0.00000 0.00045        -0.4D-17-0.3D-23-0.2D-16         0.00198 0.00000 0.00423          0.87733  0.0023 -0.0037 -0.0236
+   6 0.00003 0.00000 0.00005         0.7D-18-0.9D-24-0.3D-17         0.00026 0.00000 0.00039                                         
+  ONLY MAXIMUM MET                      
+  0.3869E-03  0.4229E+00  0.1530E+00  0.1000E-02  0.1000E-03
+       LINIT= 6 NSCHP=        25 NCHOP=         0 NSTAT1,2,3=         0       219        81 NTRAN=        94
+ IT= 1   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.10574(  6,  5,  1)  1.0D-03   216.48 -0.00004  0.01649                              
+ WAT 0.00015(  7,  3,  1)  5.2D-06   215.28 -0.00001  0.00693                              
+ GAS 0.35549(  1,  1,  1) -7.8D-04    82.60 -0.00006  0.01553                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.01647 0.00003 0.05616         0.1D-02 0.5D-05-0.8D-03         0.10574 0.00015 0.35549                                         
+   1 0.00773 0.00000 0.00753         0.8D-17-0.2D-22 0.2D-16         0.06094 0.00000 0.04832          0.24838                        
+   2 0.00397 0.00000 0.00623         0.1D-16 0.4D-22-0.8D-18         0.02417 0.00000 0.05850          0.88906  0.1584                
+   3 0.00063 0.00000 0.00139         0.3D-17 0.3D-22 0.6D-16         0.00347 0.00000 0.01557          0.75079 -0.0190 -0.0489        
+   4 0.00015 0.00000 0.00019         0.5D-18 0.4D-23 0.2D-16         0.00075 0.00000 0.00120          0.79157 -0.0012  0.0077 -0.0037
+   5 0.00002 0.00000 0.00004         0.3D-20 0.2D-23 0.3D-17         0.00013 0.00000 0.00030                                         
+  ONLY MAXIMUM MET                      
+  0.2958E-03  0.3555E+00  0.3555E+00  0.1000E-02  0.1000E-03
+       LINIT= 5 NSCHP=         6 NCHOP=         0 NSTAT1,2,3=         0       196       104 NTRAN=       173
+ IT= 2   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.02519(  3,  7,  1)  6.5D-05   204.82 -0.00015  0.07118                              
+ WAT 0.00000(  2,  2,  2) -1.3D-08    91.68 -0.00007  0.01351                              
+ GAS 0.04387(  6,  2,  1) -9.9D-05   188.84 -0.00014  0.08671                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00330 0.00000 0.00524         0.6D-04-0.1D-07-0.1D-03         0.02519 0.00000 0.04387                                         
+   1 0.00022 0.00000 0.00045        -0.1D-17-0.2D-23 0.1D-17         0.00128 0.00000 0.00359          0.60153                        
+   2 0.00007 0.00000 0.00020        -0.9D-18 0.1D-24-0.4D-18         0.00037 0.00000 0.00170          0.49048 -0.1914                
+   3 0.00002 0.00000 0.00003        -0.3D-18-0.5D-25 0.6D-18         0.00012 0.00000 0.00019          0.70026  0.0158 -0.0577        
+   4 0.00001 0.00000 0.00001        -0.5D-19-0.6D-25 0.1D-18         0.00003 0.00000 0.00005                                         
+  TARGET MET                      
+  0.4969E-04  0.1000E-03
+       LINIT= 4 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       218        82 NTRAN=       152
+ IT= 3   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00200(  7,  6,  1)  8.9D-06   208.27 -0.00015  0.00000                              
+ WAT 0.00000(  3,  7,  1) -9.1D-13   207.03 -0.00015  0.06541                              
+ GAS-0.00322(  7,  6,  1) -1.5D-05   208.27 -0.00015  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00019 0.00000 0.00029         0.9D-05-0.9D-12-0.2D-04         0.00200 0.00000 0.00322                                         
+   1 0.00003 0.00000 0.00004         0.3D-18-0.1D-24-0.2D-18         0.00020 0.00000 0.00032          0.74901                        
+   2 0.00001 0.00000 0.00002         0.7D-19-0.7D-25-0.5D-19         0.00006 0.00000 0.00019          0.59438 -0.0477                
+   3 0.00000 0.00000 0.00000         0.2D-19 0.5D-26-0.3D-19         0.00002 0.00000 0.00004                                         
+  TARGET MET                      
+  0.4355E-04  0.1000E-03
+       LINIT= 3 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       229        71 NTRAN=        27
+ IT= 4   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00004(  6,  7,  1)  9.3D-09   208.57 -0.00015  0.00250                              
+ WAT 0.00000(  6,  6,  1) -4.5D-14   209.70 -0.00015  0.02649                              
+ GAS-0.00004(  2,  2,  1) -1.6D-08    91.89 -0.00007  0.03008                              
+
+ STEP   11 TIME=  223.89  DAYS ( +70.4  DAYS TRNC  4 ITS) (30-MAY-1983)          
+  PAV=  5428.5  PSIA   WCT=0.000 GOR=     1.25 MSCF/STB WGR=   0.0000 STB/MSCF   
+
+      PR.RATE   PR.TOTAL  IN.RATE   IN.TOTAL  MAX SATURN CHANGE   MAX TIME TRNC ERR
+
+ OIL   20000.   4477787.       0.         0. -0.092(  5,  4,  1) -0.053(  6,  5,  1)
+ WAT       0.         0.       0.         0.  0.000(  9,  1,  2)  0.000(  6,  1,  2)
+ GAS   24949.   5583592.  100000.  22388935.  0.092(  5,  4,  1)  0.053(  6,  5,  1)
+
+      MAX DP =  211.22(  9,  1,  3)  MAX DRS=  0.0000(  1,  5,  3) 
+ IT= 0   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.08990(  4,  5,  1)  4.3D-03     0.00  0.00000  0.00000                              
+ WAT 0.00000( 10, 10,  1)  3.5D-11     0.00  0.00000  0.00000                              
+ GAS-0.11635(  5,  4,  1) -1.2D-02     0.00  0.00000  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.02583 0.00000 0.03504         0.4D-02 0.4D-10-0.1D-01         0.08990 0.00000 0.11635                                         
+   1 0.03774 0.00000 0.04627         0.2D-15 0.2D-21-0.2D-15         0.20563 0.00000 0.39532          0.90410                        
+   2 0.01021 0.00000 0.01827         0.1D-16 0.4D-23 0.3D-15         0.05958 0.00000 0.14297          0.56784  0.1047                
+   3 0.00330 0.00000 0.00483         0.3D-16-0.1D-22 0.1D-15         0.02810 0.00000 0.03886          0.29249 -0.0212  0.1108        
+   4 0.00227 0.00000 0.00295         0.2D-16-0.2D-22 0.4D-16         0.01383 0.00000 0.02115          0.64035 -0.0094 -0.0427 -0.0299
+   5 0.00046 0.00000 0.00056         0.5D-17-0.1D-22 0.4D-17         0.00229 0.00000 0.00466          0.83157  0.0004  0.0064 -0.0633
+   6 0.00004 0.00000 0.00007         0.5D-18-0.2D-23 0.3D-17         0.00023 0.00000 0.00040          0.76126 -0.0003 -0.0003 -0.0173
+   7 0.00001 0.00000 0.00001         0.2D-18-0.3D-24 0.8D-18         0.00003 0.00000 0.00010                                         
+  TARGET MET                      
+  0.9515E-04  0.1000E-03
+       LINIT= 7 NSCHP=        17 NCHOP=         0 NSTAT1,2,3=         0       193       107 NTRAN=        76
+ IT= 1   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.05333(  8,  4,  1)  4.0D-04   200.62 -0.00005  0.01249                              
+ WAT 0.00012(  9,  9,  3)  2.8D-06   194.93 -0.00003  0.00000                              
+ GAS 0.17879(  6,  4,  1) -1.1D-04   191.73 -0.00014  0.09477                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00959 0.00002 0.03388         0.4D-03 0.3D-05-0.1D-03         0.05333 0.00012 0.17879                                         
+   1 0.00506 0.00000 0.00574         0.5D-17-0.2D-21-0.6D-16         0.03058 0.00000 0.05122          0.21229                        
+   2 0.00320 0.00000 0.00423         0.5D-17-0.2D-21-0.3D-16         0.01722 0.00000 0.02766          0.92727  0.1826                
+   3 0.00062 0.00000 0.00108         0.2D-17-0.7D-22-0.2D-16         0.00320 0.00000 0.00891          0.64103 -0.0701  0.0240        
+   4 0.00020 0.00000 0.00024        -0.4D-18-0.1D-22-0.2D-16         0.00104 0.00000 0.00165          0.81075  0.0017 -0.0098 -0.0186
+   5 0.00003 0.00000 0.00007        -0.3D-18-0.5D-24-0.3D-17         0.00016 0.00000 0.00050          0.67601 -0.0011  0.0060 -0.0207
+   6 0.00001 0.00000 0.00001        -0.9D-19-0.7D-24-0.8D-18         0.00004 0.00000 0.00008                                         
+  TARGET MET                      
+  0.7933E-04  0.1000E-03
+       LINIT= 6 NSCHP=         4 NCHOP=         0 NSTAT1,2,3=         0       190       110 NTRAN=       157
+ IT= 2   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00798(  5,  8,  1)  6.6D-05   195.35 -0.00015  0.01962                              
+ WAT 0.00000(  2,  9,  1) -2.8D-08   191.77 -0.00014  0.01625                              
+ GAS 0.05797(  4,  6,  1) -8.7D-05   180.58 -0.00013  0.07430                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00113 0.00000 0.00579         0.7D-04-0.3D-07-0.9D-04         0.00798 0.00000 0.05797                                         
+   1 0.00021 0.00000 0.00064        -0.8D-18-0.1D-22 0.9D-18         0.00134 0.00000 0.00437          0.56303                        
+   2 0.00010 0.00000 0.00018         0.8D-19-0.3D-23 0.1D-17         0.00069 0.00000 0.00160          0.26357  0.1867                
+   3 0.00004 0.00000 0.00015        -0.8D-19-0.3D-23-0.6D-18         0.00039 0.00000 0.00125          0.71383 -0.0213 -0.0216        
+   4 0.00001 0.00000 0.00003         0.4D-19-0.5D-24-0.2D-18         0.00006 0.00000 0.00017          0.69401 -0.0026  0.0023 -0.0120
+   5 0.00000 0.00000 0.00000         0.8D-21-0.1D-24-0.6D-19         0.00001 0.00000 0.00002                                         
+  TARGET MET                      
+  0.2378E-04  0.1000E-03
+       LINIT= 5 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       275        25 NTRAN=       119
+ IT= 3   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00075(  6,  4,  1)  1.6D-07   179.24 -0.00013  0.06986                              
+ WAT 0.00000(  5,  8,  1) -6.6D-13   195.89 -0.00014  0.02457                              
+ GAS-0.00046(  1,  3,  1) -2.4D-07   104.13 -0.00008  0.02446                              
+
+ STEP   12 TIME=  294.44  DAYS ( +70.6  DAYS HALF  3 ITS) (9-AUG-1983)           
+  PAV=  5601.6  PSIA   WCT=0.000 GOR=     1.25 MSCF/STB WGR=   0.0000 STB/MSCF   
+
+      PR.RATE   PR.TOTAL  IN.RATE   IN.TOTAL  MAX SATURN CHANGE   MAX TIME TRNC ERR
+
+ OIL   20000.   5888894.       0.         0. -0.078(  6,  5,  1) -0.039(  6,  6,  1)
+ WAT       0.         0.       0.         0.  0.000(  7,  7,  1)  0.000(  5,  4,  2)
+ GAS   25086.   7353538.  100000.  29444468.  0.078(  6,  5,  1)  0.039(  6,  6,  1)
+
+      MAX DP =  197.03(  7,  7,  1)  MAX DRS=  0.0000(  7,  1,  3) 
+ IT= 0   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.07507(  6,  5,  1)  4.3D-03     0.00  0.00000  0.00000                              
+ WAT 0.00000( 10, 10,  1)  2.4D-11     0.00  0.00000  0.00000                              
+ GAS-0.09773(  5,  6,  1) -1.2D-02     0.00  0.00000  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.02256 0.00000 0.03228         0.4D-02 0.2D-10-0.1D-01         0.07507 0.00000 0.09773                                         
+   1 0.04544 0.00000 0.04365         0.2D-15 0.9D-22 0.4D-16         0.22063 0.00000 0.30177          0.41721                        
+   2 0.02739 0.00000 0.03833         0.1D-15-0.4D-22 0.2D-15         0.12170 0.00000 0.36731          0.75977 -0.0576                
+   3 0.00680 0.00000 0.00779         0.2D-16-0.2D-22 0.6D-17         0.03727 0.00000 0.06471          0.71843 -0.0169  0.0301        
+   4 0.00151 0.00000 0.00175         0.8D-17-0.1D-23 0.2D-16         0.00646 0.00000 0.01500          0.81837 -0.0157  0.0250 -0.0226
+   5 0.00035 0.00000 0.00040         0.1D-17 0.3D-23 0.1D-16         0.00185 0.00000 0.00335          0.40289  0.0125 -0.0149 -0.0662
+   6 0.00009 0.00000 0.00013         0.2D-17-0.4D-24 0.5D-17         0.00042 0.00000 0.00106          0.72496 -0.0002 -0.0001 -0.0518
+   7 0.00002 0.00000 0.00003         0.3D-18-0.1D-24 0.9D-18         0.00009 0.00000 0.00017                                         
+  ONLY MAXIMUM MET                      
+  0.1670E-03  0.3673E+00  0.9773E-01  0.1000E-02  0.1000E-03
+       LINIT= 7 NSCHP=         7 NCHOP=         0 NSTAT1,2,3=         0       275        25 NTRAN=        26
+ IT= 1   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.10937(  7,  7,  1)  3.5D-04   190.00 -0.00001  0.00476                              
+ WAT 0.00013(  7,  7,  1)  1.0D-06   190.00 -0.00001  0.00476                              
+ GAS 0.53539(  2,  2,  1) -7.8D-05   108.52 -0.00008  0.02079                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.01019 0.00001 0.04441         0.3D-03 0.1D-05-0.8D-04         0.10937 0.00013 0.53539                                         
+   1 0.00388 0.00000 0.00621         0.4D-18 0.1D-22-0.5D-16         0.01931 0.00000 0.06749          0.53312                        
+   2 0.00154 0.00000 0.00349         0.4D-17 0.2D-23-0.1D-16         0.00691 0.00000 0.02995          0.33905 -0.1419                
+   3 0.00070 0.00000 0.00093         0.3D-17 0.3D-23-0.2D-16         0.00382 0.00000 0.01016          0.64644 -0.0467 -0.0159        
+   4 0.00023 0.00000 0.00023         0.2D-17 0.2D-23-0.8D-17         0.00108 0.00000 0.00149          0.70775  0.0100 -0.0188 -0.0097
+   5 0.00006 0.00000 0.00010         0.6D-18 0.3D-24-0.1D-17         0.00033 0.00000 0.00084          0.74835 -0.0004  0.0092 -0.0394
+   6 0.00001 0.00000 0.00002         0.1D-18 0.1D-25-0.2D-18         0.00006 0.00000 0.00011                                         
+  ONLY MAXIMUM MET                      
+  0.1082E-03  0.5354E+00  0.5354E+00  0.1000E-02  0.1000E-03
+       LINIT= 6 NSCHP=         2 NCHOP=         0 NSTAT1,2,3=         0       155       145 NTRAN=       154
+ IT= 2   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.01561(  7,  7,  1)  2.2D-05   181.52 -0.00013  0.05108                              
+ WAT 0.00000(  8,  7,  1) -2.1D-09   184.58 -0.00014  0.02000                              
+ GAS 0.02805(  2,  2,  1) -2.5D-05   103.73 -0.00008  0.01846                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00154 0.00000 0.00274         0.2D-04-0.2D-08-0.3D-04         0.01561 0.00000 0.02805                                         
+   1 0.00010 0.00000 0.00019        -0.3D-19-0.9D-24 0.4D-19         0.00087 0.00000 0.00141          0.53514                        
+   2 0.00004 0.00000 0.00006         0.3D-19-0.5D-24-0.2D-19         0.00035 0.00000 0.00056          0.67896 -0.0941                
+   3 0.00001 0.00000 0.00002         0.2D-19-0.9D-25-0.1D-20         0.00004 0.00000 0.00020          0.62409 -0.0372  0.0461        
+   4 0.00000 0.00000 0.00000         0.2D-19-0.7D-25 0.5D-20         0.00002 0.00000 0.00003                                         
+  TARGET MET                      
+  0.3428E-04  0.1000E-03
+       LINIT= 4 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       164       136 NTRAN=        31
+ IT= 3   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00289(  8,  8,  1)  1.0D-05   182.74 -0.00013  0.00000                              
+ WAT 0.00000(  7,  7,  1) -9.0D-14   182.66 -0.00013  0.04988                              
+ GAS-0.00547(  8,  8,  1) -1.7D-05   182.74 -0.00013  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00022 0.00000 0.00037         0.1D-04-0.9D-13-0.2D-04         0.00289 0.00000 0.00547                                         
+   1 0.00004 0.00000 0.00004         0.2D-18-0.1D-24 0.4D-18         0.00014 0.00000 0.00027          0.73384                        
+   2 0.00002 0.00000 0.00001         0.6D-19-0.2D-24 0.2D-18         0.00011 0.00000 0.00009          0.26945 -0.4420                
+   3 0.00001 0.00000 0.00001         0.2D-19-0.3D-24 0.1D-18         0.00006 0.00000 0.00011          0.81709 -0.1659  0.2029        
+   4 0.00000 0.00000 0.00000        -0.1D-19-0.1D-24-0.2D-18         0.00002 0.00000 0.00002                                         
+  TARGET MET                      
+  0.2488E-04  0.1000E-03
+       LINIT= 4 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       287        13 NTRAN=       141
+ IT= 4   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00012(  8,  8,  1)  1.9D-07   183.15 -0.00013  0.00402                              
+ WAT 0.00000(  8,  8,  1) -5.1D-14   183.15 -0.00013  0.00402                              
+ GAS-0.00011(  8,  8,  1) -3.2D-07   183.15 -0.00013  0.00402                              
+
+ STEP   13 TIME=  365.00  DAYS ( +70.6  DAYS REPT  4 ITS) (19-OCT-1983)          
+  PAV=  5760.6  PSIA   WCT=0.000 GOR=     1.26 MSCF/STB WGR=   0.0000 STB/MSCF   
+
+      PR.RATE   PR.TOTAL  IN.RATE   IN.TOTAL  MAX SATURN CHANGE   MAX TIME TRNC ERR
+
+ OIL   20000.   7300000.       0.         0. -0.068(  7,  6,  1) -0.035(  7,  7,  1)
+ WAT       0.         0.       0.         0.  0.000(  8,  7,  1)  0.000(  8,  1,  1)
+ GAS   25205.   9131920.  100000.  36500000.  0.068(  7,  6,  1)  0.035(  7,  7,  1)
+
+      MAX DP =  184.30(  8,  7,  1)  MAX DRS=  0.0000(  8,  8,  3) 
+ =======================================================
+ TIMING REPORTS AT CPU=     1 SECS - ELAPSED=     1 SECS
+ =======================================================
+ ZZSS    1 16 16
+                RR      1  0  0
+ SR      1  4  4
+ TS      1 64 64
+                NX     13 62 62
+                               WC     57  0  0
+                               LMRS   57  0  0
+                               CONV   57 62 62
+                               LMJC   44  0  0
+                               LXX    44  0  0
+                                              WGIN   44  0  0
+                                              GINV   44  0  0
+                                                             GINV   44  0  0
+                                              WRES   44  0  0
+                                              ITER   44  0  0
+                                                             NORM  186  0  0
+                                                             SRCH  142  0  0
+                                                             WADX  142  0  0
+                                                             ORTH  142  0  0
+                                                             UPDA  142  0  0
+                                              WSOL   44  0  0
+                               XUIT   44  0  0
+                               LC     44  0  0
+ WWX     1  0  0
+ XW      1  0  0
+ IT= 0   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.11015(  7,  6,  1)  7.3D-03     0.00  0.00000  0.00000                              
+ WAT 0.00000( 10, 10,  1)  2.3D-11     0.00  0.00000  0.00000                              
+ GAS-0.14532(  7,  5,  1) -2.0D-02     0.00  0.00000  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.03459 0.00000 0.05157         0.7D-02 0.2D-10-0.2D-01         0.11015 0.00000 0.14532                                         
+   1 0.15001 0.00000 0.17623         0.6D-15-0.3D-21-0.8D-15         0.98932 0.00000 1.59644          0.14800                        
+   2 0.12001 0.00000 0.14436         0.5D-15-0.3D-21-0.3D-15         0.65544 0.00000 1.28313          1.23966  0.2938                
+   3 0.03687 0.00000 0.05340         0.6D-16 0.2D-21-0.8D-15         0.27456 0.00000 0.41341          0.64750  0.0725 -0.0614        
+   4 0.00929 0.00000 0.01464         0.9D-16-0.5D-22-0.2D-15         0.04654 0.00000 0.09116          0.36429 -0.0834  0.0617 -0.1464
+   5 0.00470 0.00000 0.00862         0.2D-16 0.4D-22-0.2D-15         0.02912 0.00000 0.07078          0.79465 -0.0020  0.0082 -0.0417
+   6 0.00058 0.00000 0.00129        -0.7D-18 0.9D-23-0.1D-16         0.00414 0.00000 0.00800          0.60128  0.0004  0.0033  0.0099
+   7 0.00017 0.00000 0.00044         0.2D-17-0.8D-25-0.3D-17         0.00105 0.00000 0.00319          0.70591  0.0004 -0.0022 -0.0549
+   8 0.00002 0.00000 0.00007         0.1D-17 0.2D-24-0.3D-18         0.00016 0.00000 0.00070                                         
+  ONLY MAXIMUM MET                      
+  0.7003E-03  0.1596E+01  0.1453E+00  0.1000E-02  0.1000E-03
+       LINIT= 8 NSCHP=        14 NCHOP=         0 NSTAT1,2,3=         0       204        96 NTRAN=        85
+ IT= 1   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.28321(  8,  8,  1)  1.2D-03   301.96 -0.00002  0.01598                              
+ WAT 0.00021(  5,  9,  1)  3.6D-06   289.49 -0.00001  0.00356                              
+ GAS 2.80855(  1,  3,  1) -5.4D-04   203.32 -0.00015  0.02090                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.02634 0.00003 0.30262         0.1D-02 0.4D-05-0.5D-03         0.28321 0.00021 2.80855                                         
+   1 0.02778 0.00000 0.06296        -0.2D-16 0.2D-21-0.1D-14         0.23829 0.00000 0.59521          0.12231                        
+   2 0.01675 0.00000 0.02534        -0.3D-16 0.1D-21-0.6D-15         0.10735 0.00000 0.26708          0.69834  0.2210                
+   3 0.00622 0.00000 0.00917        -0.1D-16 0.2D-22-0.7D-15         0.04651 0.00000 0.07931          0.63156 -0.0042 -0.2178        
+   4 0.00287 0.00000 0.00526        -0.5D-17 0.1D-22-0.3D-15         0.02687 0.00000 0.05840          0.62243  0.0119 -0.0298 -0.0508
+   5 0.00079 0.00000 0.00158        -0.2D-18 0.3D-23-0.1D-15         0.00398 0.00000 0.01675          0.86829 -0.0060  0.0245  0.0376
+   6 0.00015 0.00000 0.00043        -0.2D-17 0.8D-24-0.9D-17         0.00061 0.00000 0.00297          0.58236  0.0004 -0.0100 -0.0717
+   7 0.00005 0.00000 0.00011        -0.5D-18 0.7D-24 0.2D-17         0.00038 0.00000 0.00084                                         
+  ONLY MAXIMUM MET                      
+  0.8431E-03  0.2809E+01  0.2809E+01  0.1000E-02  0.1000E-03
+       LINIT= 7 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       206        94 NTRAN=       104
+ IT= 2   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.11412(  9,  8,  1)  3.6D-04   283.82 -0.00021  0.00000                              
+ WAT 0.00000(  9,  5,  1) -6.2D-10   267.42 -0.00020  0.07825                              
+ GAS-0.15675(  9,  8,  1) -5.9D-04   283.82 -0.00021  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.01288 0.00000 0.02043         0.4D-03-0.6D-09-0.6D-03         0.11412 0.00000 0.15675                                         
+   1 0.00360 0.00000 0.00735         0.1D-16-0.2D-22-0.7D-16         0.03034 0.00000 0.05994          0.12212                        
+   2 0.00255 0.00000 0.00422         0.1D-16-0.1D-23-0.9D-16         0.01443 0.00000 0.03703          0.93396  0.2300                
+   3 0.00118 0.00000 0.00233        -0.2D-17 0.6D-23 0.1D-15         0.01052 0.00000 0.02601          0.87745  0.1048 -0.2562        
+   4 0.00027 0.00000 0.00063        -0.1D-17 0.3D-23 0.1D-15         0.00187 0.00000 0.00568          0.58366 -0.0301  0.0649 -0.0424
+   5 0.00010 0.00000 0.00025        -0.3D-18 0.8D-24 0.3D-16         0.00054 0.00000 0.00222          0.66231 -0.0073  0.0021 -0.0371
+   6 0.00003 0.00000 0.00009        -0.9D-19 0.3D-24 0.6D-17         0.00016 0.00000 0.00073          0.45377  0.0036  0.0059  0.0292
+   7 0.00001 0.00000 0.00004         0.9D-19 0.1D-24 0.9D-18         0.00007 0.00000 0.00028          0.49690 -0.0010 -0.0049 -0.1497
+   8 0.00000 0.00000 0.00001         0.2D-19 0.7D-25 0.2D-18         0.00002 0.00000 0.00011                                         
+  ONLY MAXIMUM MET                      
+  0.1141E-03  0.1568E+00  0.1568E+00  0.1000E-02  0.1000E-03
+       LINIT= 8 NSCHP=         2 NCHOP=         0 NSTAT1,2,3=         0       264        36 NTRAN=       114
+ IT= 3   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.09008(  9,  8,  1)  3.7D-04   290.43 -0.00021  0.02000                              
+ WAT 0.00000(  9,  8,  1)  1.6D-08   290.43 -0.00021  0.02000                              
+ GAS-0.10508(  9,  8,  1) -4.2D-04   290.43 -0.00021  0.02000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00736 0.00000 0.00864         0.4D-03 0.2D-07-0.4D-03         0.09008 0.00000 0.10508                                         
+   1 0.00052 0.00000 0.00082        -0.4D-17-0.8D-23-0.9D-17         0.00432 0.00000 0.00711          0.12656                        
+   2 0.00040 0.00000 0.00062        -0.4D-17-0.7D-23-0.3D-18         0.00366 0.00000 0.00587          0.44516  0.0851                
+   3 0.00020 0.00000 0.00034        -0.2D-17-0.1D-23-0.2D-17         0.00189 0.00000 0.00280          0.61908 -0.1803  0.1719        
+   4 0.00005 0.00000 0.00011        -0.8D-18 0.5D-24 0.2D-17         0.00038 0.00000 0.00056          0.52677 -0.0088 -0.0464  0.0151
+   5 0.00002 0.00000 0.00003        -0.3D-18 0.1D-24 0.1D-17         0.00009 0.00000 0.00024          0.63830 -0.0017 -0.0049 -0.0028
+   6 0.00000 0.00000 0.00001        -0.1D-18 0.2D-25 0.5D-18         0.00002 0.00000 0.00004                                         
+  TARGET MET                      
+  0.4455E-04  0.1000E-03
+       LINIT= 6 NSCHP=         1 NCHOP=         0 NSTAT1,2,3=         0       229        71 NTRAN=        63
+ IT= 4   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.07986(  9,  9,  1)  1.1D-04   292.14 -0.00021  0.02000                              
+ WAT 0.00000(  9,  9,  1)  5.6D-09   292.14 -0.00021  0.02000                              
+ GAS-0.05402(  9,  9,  1) -1.2D-04   292.14 -0.00021  0.02000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00489 0.00000 0.00318         0.1D-03 0.6D-08-0.1D-03         0.07986 0.00000 0.05402                                         
+   1 0.00042 0.00000 0.00058        -0.2D-17 0.2D-23-0.1D-17         0.00377 0.00000 0.00490          0.15104                        
+   2 0.00034 0.00000 0.00049        -0.2D-17 0.1D-23-0.3D-17         0.00309 0.00000 0.00402          0.96953  0.1820                
+   3 0.00012 0.00000 0.00023         0.7D-18 0.1D-24 0.2D-17         0.00106 0.00000 0.00259          0.56595  0.2639 -0.3393        
+   4 0.00004 0.00000 0.00009         0.3D-18 0.9D-25 0.5D-17         0.00024 0.00000 0.00076          0.39122 -0.1397  0.1013 -0.3678
+   5 0.00001 0.00000 0.00003         0.2D-18-0.7D-25 0.3D-17         0.00007 0.00000 0.00033          0.73011 -0.0241  0.0306  0.0479
+   6 0.00000 0.00000 0.00001         0.6D-19-0.3D-25 0.9D-18         0.00002 0.00000 0.00010                                         
+  TARGET MET                      
+  0.9700E-04  0.1000E-03
+       LINIT= 6 NSCHP=         1 NCHOP=         0 NSTAT1,2,3=         0       202        98 NTRAN=       115
+ IT= 5   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.01179( 10, 10,  1)  1.7D-05   281.25 -0.00021 -0.00405                              
+ WAT 0.00000( 10,  9,  1) -2.7D-13   287.16 -0.00021  0.02000                              
+ GAS-0.03435(  9, 10,  1) -2.8D-05   285.29 -0.00021  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00085 0.00000 0.00272         0.2D-04-0.3D-12-0.3D-04         0.01179 0.00000 0.03435                                         
+   1 0.00041 0.00000 0.00062        -0.5D-18 0.7D-24 0.2D-17         0.00267 0.00000 0.00360          0.11793                        
+   2 0.00034 0.00000 0.00052        -0.5D-18 0.6D-24 0.1D-18         0.00200 0.00000 0.00488          1.03528  0.2989                
+   3 0.00014 0.00000 0.00027        -0.2D-18 0.2D-24 0.3D-17         0.00124 0.00000 0.00309          0.69365  0.2086 -0.3382        
+   4 0.00004 0.00000 0.00009        -0.1D-18 0.3D-24 0.5D-17         0.00025 0.00000 0.00069          0.40001 -0.0957  0.0628 -0.3178
+   5 0.00002 0.00000 0.00004        -0.6D-19 0.3D-25 0.2D-17         0.00009 0.00000 0.00041          0.73654 -0.0142  0.0290  0.0052
+   6 0.00000 0.00000 0.00001        -0.1D-19-0.4D-26 0.1D-18         0.00002 0.00000 0.00012          0.72467 -0.0023  0.0012 -0.0293
+   7 0.00000 0.00000 0.00000        -0.1D-21-0.4D-26-0.2D-19         0.00000 0.00000 0.00002                                         
+  TARGET MET                      
+  0.1796E-04  0.1000E-03
+       LINIT= 7 NSCHP=         1 NCHOP=         0 NSTAT1,2,3=         0       233        67 NTRAN=       117
+ IT= 6   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00229(  9, 10,  1)  5.5D-07   287.44 -0.00021  0.02000                              
+ WAT 0.00000(  9, 10,  1)  4.2D-11   287.44 -0.00021  0.02000                              
+ GAS 0.00271( 10, 10,  1) -5.5D-07   280.59 -0.00021 -0.00643                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00018 0.00000 0.00022         0.6D-06 0.4D-10-0.5D-06         0.00229 0.00000 0.00271                                         
+   1 0.00003 0.00000 0.00003         0.1D-18 0.2D-24-0.3D-19         0.00031 0.00000 0.00033          0.31924                        
+   2 0.00002 0.00000 0.00002         0.9D-19 0.9D-25 0.2D-18         0.00018 0.00000 0.00019          0.19447 -0.6688                
+   3 0.00001 0.00000 0.00001         0.4D-19 0.2D-25 0.3D-18         0.00008 0.00000 0.00011          0.64266 -0.4045  0.3063        
+   4 0.00000 0.00000 0.00000         0.7D-20-0.7D-26-0.4D-19         0.00002 0.00000 0.00003                                         
+  TARGET MET                      
+  0.3054E-04  0.1000E-03
+       LINIT= 4 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       197       103 NTRAN=       110
+ IT= 7   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00002(  9, 10,  1) -1.8D-08   287.53 -0.00021  0.02008                              
+ WAT 0.00000( 10, 10,  1) -2.2D-15   280.32 -0.00021 -0.00640                              
+ GAS 0.00003(  2,  2,  1)  1.6D-08   176.50 -0.00013  0.02197                              
+
+ STEP   14 TIME=  484.89  DAYS (+119.9  DAYS TRNC  7 ITS) (15-FEB-1984)          
+  PAV=  6005.1  PSIA   WCT= 0.00 GOR=     1.27 MSCF/STB WGR= 0.00000  STB/MSCF   
+
+      PR.RATE   PR.TOTAL  IN.RATE   IN.TOTAL  MAX SATURN CHANGE   MAX TIME TRNC ERR
+
+ OIL   20000.   9697867.       0.         0. -0.101(  8,  7,  1) -0.082(  8,  8,  1)
+ WAT       0.         0.       0.         0.  0.000(  9,  9,  2)  0.000(  7,  5,  2)
+ GAS   25313.  12166824.  100000.  48489336.  0.101(  8,  7,  1)  0.082(  8,  8,  1)
+
+      MAX DP =  289.78(  9,  9,  2)  MAX DRS=  0.0000(  8,  2,  3) 
+ IT= 0   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.09802(  8,  7,  1)  7.4D-03     0.00  0.00000  0.00000                              
+ WAT 0.00000(  1,  1,  1)  0.0D+00     0.00  0.00000  0.00000                              
+ GAS-0.13093(  7,  7,  1) -2.0D-02     0.00  0.00000  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.03088 0.00000 0.04814         0.7D-02 0.0D+00-0.2D-01         0.09802 0.00000 0.13093                                         
+   1 0.14619 0.00000 0.24818        -0.3D-15-0.2D-21 0.2D-14         1.19805 0.00000 1.63089          0.09735                        
+   2 0.11866 0.00000 0.19863        -0.3D-15-0.2D-21 0.3D-14         0.74631 0.00000 1.99213          1.17779  0.3391                
+   3 0.05552 0.00000 0.10823        -0.3D-15-0.1D-21-0.1D-14         0.50466 0.00000 1.19495          0.92001  0.1145 -0.3153        
+   4 0.01217 0.00000 0.02991        -0.6D-16-0.5D-22-0.2D-14         0.08992 0.00000 0.33171          0.69467 -0.0312  0.0290 -0.0400
+   5 0.00351 0.00000 0.01013        -0.3D-17-0.7D-23-0.6D-15         0.02230 0.00000 0.08897          0.48576  0.0072  0.0464  0.0209
+   6 0.00132 0.00000 0.00432        -0.2D-16-0.1D-22-0.3D-15         0.00863 0.00000 0.03315          0.51848 -0.0073 -0.0110 -0.1693
+   7 0.00027 0.00000 0.00103        -0.2D-17-0.4D-23 0.3D-17         0.00169 0.00000 0.00955          0.82366  0.0004 -0.0035  0.0176
+   8 0.00004 0.00000 0.00024        -0.4D-18-0.1D-24-0.6D-17         0.00030 0.00000 0.00188          0.65128  0.0000  0.0009 -0.0260
+   9 0.00002 0.00000 0.00004        -0.1D-18-0.1D-24 0.4D-18         0.00020 0.00000 0.00020                                         
+  ONLY MAXIMUM MET                      
+  0.2045E-03  0.1992E+01  0.1309E+00  0.1000E-02  0.1000E-03
+       LINIT= 9 NSCHP=        16 NCHOP=         0 NSTAT1,2,3=         0       217        83 NTRAN=        70
+ IT= 1   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.24762(  9,  9,  1)  1.2D-03   260.58 -0.00019  0.12534                              
+ WAT 0.00019( 10,  8,  1)  4.9D-06   268.86  0.00000  0.00095                              
+ GAS 2.60953(  4,  1,  1) -7.3D-04   193.25 -0.00014  0.02188                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.02066 0.00004 0.25923         0.1D-02 0.5D-05-0.7D-03         0.24762 0.00019 2.60953                                         
+   1 0.02318 0.00000 0.02982        -0.4D-16 0.1D-21 0.5D-15         0.15707 0.00000 0.18899          0.13081                        
+   2 0.01854 0.00000 0.02185        -0.3D-16 0.1D-21 0.3D-15         0.09290 0.00000 0.24015          1.10819  0.3325                
+   3 0.00687 0.00000 0.01015        -0.2D-16 0.4D-22 0.2D-15         0.05821 0.00000 0.06453          0.69807  0.0954 -0.3208        
+   4 0.00293 0.00000 0.00451        -0.1D-16 0.9D-23-0.6D-17         0.02070 0.00000 0.03701          0.48323  0.0376  0.0045 -0.0179
+   5 0.00124 0.00000 0.00233        -0.8D-17 0.8D-23 0.3D-16         0.00445 0.00000 0.01548          0.59945 -0.0337  0.0439 -0.1303
+   6 0.00036 0.00000 0.00064        -0.2D-17 0.3D-23 0.2D-16         0.00153 0.00000 0.00559          0.73473  0.0021 -0.0177 -0.0287
+   7 0.00008 0.00000 0.00019         0.4D-19 0.9D-25 0.8D-17         0.00036 0.00000 0.00112          0.61100  0.0012 -0.0008 -0.0551
+   8 0.00003 0.00000 0.00005         0.1D-18-0.1D-24 0.1D-17         0.00016 0.00000 0.00042                                         
+  ONLY MAXIMUM MET                      
+  0.4229E-03  0.2610E+01  0.2610E+01  0.1000E-02  0.1000E-03
+       LINIT= 8 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       217        83 NTRAN=        80
+ IT= 2   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.06275( 10,  9,  1)  5.3D-07   247.96 -0.00018  0.06498                              
+ WAT 0.00000( 10,  3,  1) -7.8D-10   215.85 -0.00016  0.03091                              
+ GAS 0.10173(  8,  8,  1) -3.6D-06   245.51 -0.00018  0.09343                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00678 0.00000 0.00864         0.5D-06-0.8D-09-0.4D-05         0.06275 0.00000 0.10173                                         
+   1 0.00125 0.00000 0.00329         0.2D-16 0.2D-23-0.1D-16         0.00575 0.00000 0.01848          0.18757                        
+   2 0.00086 0.00000 0.00179         0.1D-16 0.3D-23 0.1D-16         0.00426 0.00000 0.00930          0.40153 -0.0795                
+   3 0.00073 0.00000 0.00123         0.8D-17 0.3D-23 0.1D-16         0.00425 0.00000 0.00963          0.70071 -0.2305  0.2907        
+   4 0.00032 0.00000 0.00052         0.3D-17 0.1D-23 0.7D-17         0.00175 0.00000 0.00402          0.82309 -0.0284  0.0733 -0.1719
+   5 0.00009 0.00000 0.00013         0.4D-18 0.3D-24 0.2D-17         0.00039 0.00000 0.00085          0.66147  0.0070 -0.0026 -0.0146
+   6 0.00003 0.00000 0.00007         0.4D-19 0.2D-24 0.1D-17         0.00011 0.00000 0.00045          0.64764  0.0041 -0.0075 -0.0942
+   7 0.00001 0.00000 0.00001         0.2D-19 0.5D-25 0.2D-18         0.00003 0.00000 0.00014          0.72902  0.0012 -0.0003 -0.0091
+   8 0.00000 0.00000 0.00000        -0.2D-20-0.9D-28-0.3D-19         0.00001 0.00000 0.00002                                         
+  TARGET MET                      
+  0.2228E-04  0.1000E-03
+       LINIT= 8 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       216        84 NTRAN=        31
+ IT= 3   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00133(  8,  8,  1)  1.3D-08   240.29 -0.00018  0.08811                              
+ WAT 0.00000( 10, 10,  3) -1.7D-11   223.31 -0.00016  0.02548                              
+ GAS 0.01404( 10, 10,  3)  7.1D-05   223.31 -0.00016  0.02548                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00015 0.00000 0.00083         0.1D-07-0.2D-10 0.7D-04         0.00133 0.00000 0.01404                                         
+   1 0.00010 0.00000 0.00016         0.2D-18 0.3D-24 0.1D-17         0.00041 0.00000 0.00135          0.35894                        
+   2 0.00008 0.00000 0.00014         0.2D-18 0.2D-24 0.1D-17         0.00044 0.00000 0.00127          0.14878  0.1506                
+   3 0.00007 0.00000 0.00013         0.1D-18 0.2D-24 0.9D-18         0.00026 0.00000 0.00120          1.05917  0.0908  0.1917        
+   4 0.00003 0.00000 0.00005         0.1D-18 0.1D-24-0.2D-18         0.00014 0.00000 0.00037          0.76037  0.0693  0.0447 -0.3883
+   5 0.00001 0.00000 0.00001         0.4D-19 0.5D-25-0.3D-18         0.00003 0.00000 0.00008                                         
+  TARGET MET                      
+  0.8144E-04  0.1000E-03
+       LINIT= 5 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       193       107 NTRAN=        27
+ IT= 4   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00003(  1,  5,  1) -2.6D-08   174.18 -0.00013  0.02566                              
+ WAT 0.00000( 10, 10,  3) -1.1D-13   222.61 -0.00016  0.02472                              
+ GAS-0.00008(  2,  2,  1)  2.3D-07   156.17 -0.00011  0.01724                              
+
+ STEP   15 TIME=  607.45  DAYS (+122.6  DAYS HALF  4 ITS) (17-JUN-1984)          
+  PAV=  6206.7  PSIA   WCT= 0.00 GOR=     1.47 MSCF/STB WGR= 0.00000  STB/MSCF   
+
+      PR.RATE   PR.TOTAL  IN.RATE   IN.TOTAL  MAX SATURN CHANGE   MAX TIME TRNC ERR
+
+ OIL   20000.  12148934.       0.         0. -0.090(  9,  9,  1) -0.072( 10, 10,  1)
+ WAT       0.         0.       0.         0.  0.000(  8,  9,  1)  0.000( 10, 10,  3)
+ GAS   29463.  15777647.  100000.  60744668.  0.091(  9,  9,  1)  0.072( 10, 10,  1)
+
+      MAX DP =  243.14(  8,  9,  1)  MAX DRS=  0.0000(  2,  6,  3) 
+ IT= 0   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.08599(  9,  9,  1)  7.4D-03     0.00  0.00000  0.00000                              
+ WAT 0.00000(  1,  1,  1)  0.0D+00     0.00  0.00000  0.00000                              
+ GAS-0.11453(  8,  8,  1) -1.9D-02     0.00  0.00000  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.02723 0.00000 0.04319         0.7D-02 0.0D+00-0.2D-01         0.08599 0.00000 0.11453                                         
+   1 0.09218 0.00000 0.13496         0.4D-16-0.3D-21-0.2D-14         0.63647 0.00000 1.10278          0.12306                        
+   2 0.07607 0.00000 0.11787         0.4D-16-0.3D-21-0.2D-14         0.38838 0.00000 1.21387          1.12205  0.3472                
+   3 0.02746 0.00000 0.04619         0.4D-16-0.1D-21 0.7D-15         0.16499 0.00000 0.39116          0.77949  0.1023 -0.3990        
+   4 0.01019 0.00000 0.01578         0.1D-16-0.4D-22 0.9D-15         0.04432 0.00000 0.10469          0.50747  0.0267  0.0360 -0.0232
+   5 0.00385 0.00000 0.00802         0.2D-16-0.2D-22 0.3D-15         0.01773 0.00000 0.05474          0.57267 -0.0344  0.0187 -0.1927
+   6 0.00105 0.00000 0.00231         0.1D-16-0.6D-23 0.9D-16         0.00494 0.00000 0.02215          0.58644 -0.0042 -0.0115 -0.0156
+   7 0.00029 0.00000 0.00064         0.6D-17-0.4D-23 0.1D-16         0.00147 0.00000 0.00469          0.77272  0.0008 -0.0024 -0.0180
+   8 0.00006 0.00000 0.00017         0.7D-18-0.9D-24 0.1D-16         0.00032 0.00000 0.00131          0.70764 -0.0003  0.0006 -0.0035
+   9 0.00001 0.00000 0.00003         0.2D-18-0.2D-24 0.1D-17         0.00007 0.00000 0.00015                                         
+  ONLY MAXIMUM MET                      
+  0.1542E-03  0.1214E+01  0.1145E+00  0.1000E-02  0.1000E-03
+       LINIT= 9 NSCHP=         4 NCHOP=         0 NSTAT1,2,3=         0       239        61 NTRAN=       108
+ IT= 1   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.15696( 10, 10,  2)  3.3D-05    33.68 -0.00002  0.10511                              
+ WAT 0.00004(  4,  1,  3)  4.6D-07   110.17 -0.00004  0.00403                              
+ GAS-0.81805( 10, 10,  1)  1.0D-03    34.91 -0.00003  0.07961                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.01650 0.00000 0.09613         0.3D-04 0.5D-06 0.1D-02         0.15696 0.00004 0.81805                                         
+   1 0.02265 0.00000 0.03322        -0.2D-16 0.4D-22 0.2D-15         0.11672 0.00000 0.29829          0.16514                        
+   2 0.01922 0.00000 0.03214        -0.3D-16 0.4D-22 0.2D-15         0.07835 0.00000 0.30839          1.36510  0.3817                
+   3 0.00734 0.00000 0.01381         0.2D-16 0.2D-22-0.1D-15         0.03890 0.00000 0.11850          0.63653  0.2164 -0.5548        
+   4 0.00262 0.00000 0.00475         0.2D-16-0.6D-23-0.1D-15         0.01151 0.00000 0.04381          0.27892 -0.1288  0.1775 -0.1897
+   5 0.00177 0.00000 0.00253         0.1D-16 0.1D-23-0.9D-16         0.00657 0.00000 0.01888          0.89044  0.0022 -0.0061 -0.0545
+   6 0.00023 0.00000 0.00051        -0.3D-18 0.1D-23-0.8D-17         0.00101 0.00000 0.00352          0.75296  0.0027 -0.0122  0.0240
+   7 0.00007 0.00000 0.00015        -0.2D-18 0.4D-24-0.3D-17         0.00033 0.00000 0.00135          0.75725 -0.0009  0.0023 -0.0243
+   8 0.00001 0.00000 0.00002        -0.1D-18 0.2D-25-0.4D-18         0.00005 0.00000 0.00015                                         
+  ONLY MAXIMUM MET                      
+  0.1538E-03  0.8181E+00  0.8181E+00  0.1000E-02  0.1000E-03
+       LINIT= 8 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       232        68 NTRAN=       121
+ IT= 2   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.02405( 10, 10,  1)  1.3D-06   -14.55  0.00001  0.06098                              
+ WAT 0.00000( 10,  9,  1) -2.6D-09    42.63 -0.00003  0.07470                              
+ GAS 0.03553(  8,  8,  1)  2.4D-05    88.34 -0.00006  0.06270                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00219 0.00000 0.00347         0.1D-05-0.3D-08 0.2D-04         0.02405 0.00000 0.03553                                         
+   1 0.00020 0.00000 0.00044        -0.6D-19 0.1D-23-0.9D-18         0.00074 0.00000 0.00390          0.62270                        
+   2 0.00013 0.00000 0.00025         0.7D-19 0.2D-24-0.3D-18         0.00070 0.00000 0.00220          0.16098 -0.3764                
+   3 0.00010 0.00000 0.00024         0.3D-19-0.5D-25 0.2D-18         0.00042 0.00000 0.00186          0.82374 -0.1459  0.2046        
+   4 0.00004 0.00000 0.00008         0.7D-19-0.1D-24 0.2D-18         0.00018 0.00000 0.00070          0.58283  0.0143 -0.0793 -0.1116
+   5 0.00002 0.00000 0.00003         0.3D-19-0.1D-24 0.1D-19         0.00007 0.00000 0.00020          0.90165 -0.0030  0.0004 -0.0124
+   6 0.00000 0.00000 0.00001        -0.1D-20-0.8D-26-0.1D-19         0.00001 0.00000 0.00003                                         
+  TARGET MET                      
+  0.3397E-04  0.1000E-03
+       LINIT= 6 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       209        91 NTRAN=        43
+ IT= 3   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00007(  8,  8,  1) -2.3D-08    87.44 -0.00006  0.06185                              
+ WAT 0.00000(  8,  8,  1) -2.8D-13    87.44 -0.00006  0.06185                              
+ GAS 0.00022( 10, 10,  2)  3.0D-08   -16.56  0.00001  0.07112                              
+
+ STEP   16 TIME=  730.00  DAYS (+122.6  DAYS REPT  3 ITS) (18-OCT-1984)          
+  PAV=  6296.1  PSIA   WCT= 0.00 GOR=     2.39 MSCF/STB WGR= 0.00000  STB/MSCF   
+
+      PR.RATE   PR.TOTAL  IN.RATE   IN.TOTAL  MAX SATURN CHANGE   MAX TIME TRNC ERR
+
+ OIL   20000.  14600000.       0.         0. -0.074( 10,  9,  1)  0.026(  8,  8,  1)
+ WAT       0.         0.       0.         0.  0.000( 10,  3,  2)  0.000( 10, 10,  3)
+ GAS   47700.  21623464.  100000.  73000000.  0.074( 10,  9,  1) -0.026(  8,  8,  1)
+
+      MAX DP =  104.43( 10,  3,  2)  MAX DRS=  0.0000(  2,  7,  3) 
+
+ @--MESSAGE  AT TIME      730.0   DAYS    (18-OCT-1984):
+ @           RESTART FILE WRITTEN   REPORT     2                             
+ =======================================================
+ TIMING REPORTS AT CPU=     1 SECS - ELAPSED=     1 SECS
+ =======================================================
+ ZZSS    1 13 13
+                RR      1  0  0
+ SR      1  4  4
+ TS      2 68 68
+                NX     16 66 66
+                               WC     74  0  0
+                               LMRS   74  0  0
+                               CONV   74 53 53
+                               LMJC   58  0  0
+                               LXX    58  0  0
+                                              WGIN   58  0  0
+                                              GINV   58  0  0
+                                                             GINV   58  0  0
+                                              WRES   58  0  0
+                                              ITER   58  0  0
+                                                             NORM  299  0  0
+                                                             SRCH  241  0  0
+                                                             WADX  241  0  0
+                                                             ORTH  241  0  0
+                                                             UPDA  241  0  0
+                                              WSOL   58  0  0
+                               XUIT   58 13 13
+                               LC     58  0  0
+ WWX     2  2  2
+ XW      2  0  0
+ YW      1  0  0
+ IT= 0   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.10810( 10,  9,  1)  1.1D-02     0.00  0.00000  0.00000                              
+ WAT 0.00000(  1,  1,  1)  0.0D+00     0.00  0.00000  0.00000                              
+ GAS-0.12739(  9,  9,  1) -2.0D-02     0.00  0.00000  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.03439 0.00000 0.04881         0.1D-01 0.0D+00-0.2D-01         0.10810 0.00000 0.12739                                         
+   1 0.16816 0.00000 0.38801         0.6D-16-0.9D-22-0.4D-14         1.50009 0.00000 2.42536          0.05153                        
+   2 0.07543 0.00000 0.19544         0.3D-16 0.3D-22-0.2D-14         0.42253 0.00000 1.81858          0.46903  0.1599                
+   3 0.06267 0.00000 0.18079         0.4D-16-0.5D-22 0.3D-14         0.32769 0.00000 1.44810          2.18437  0.1242  0.2443        
+   4 0.02075 0.00000 0.11111         0.1D-15-0.4D-22-0.1D-14         0.23710 0.00000 1.10933          0.83043 -0.0232  0.1703 -1.4356
+   5 0.01684 0.00000 0.08829         0.7D-17-0.6D-22-0.4D-14         0.10190 0.00000 0.74042          0.43782  0.0322  0.2087 -0.2754
+   6 0.00793 0.00000 0.02342         0.4D-17 0.3D-22-0.3D-14         0.03130 0.00000 0.19182          0.68254  0.0008 -0.0003 -0.0495
+   7 0.00343 0.00000 0.00973        -0.7D-17 0.2D-22-0.1D-14         0.01486 0.00000 0.07840          0.92688 -0.0050  0.0121 -0.0160
+   8 0.00092 0.00000 0.00296        -0.3D-17 0.2D-23-0.1D-15         0.00761 0.00000 0.02043          0.65501  0.0021 -0.0018 -0.0148
+   9 0.00023 0.00000 0.00081        -0.2D-17-0.1D-23 0.1D-15         0.00159 0.00000 0.00597          0.72741 -0.0005  0.0010 -0.0303
+  10 0.00007 0.00000 0.00032        -0.1D-17-0.5D-24 0.6D-16         0.00052 0.00000 0.00236          0.63248 -0.0002 -0.0001 -0.0553
+  11 0.00003 0.00000 0.00008        -0.3D-18-0.3D-24 0.2D-16         0.00024 0.00000 0.00060                                         
+  ONLY MAXIMUM MET                      
+  0.6041E-03  0.2425E+01  0.1274E+00  0.1000E-02  0.1000E-03
+       LINIT=11 NSCHP=         3 NCHOP=         0 NSTAT1,2,3=         0       236        64 NTRAN=        45
+ IT= 1   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.22037( 10, 10,  1)  1.0D-04  -320.40  0.00022  0.06546                              
+ WAT-0.00004( 10, 10,  3) -3.0D-07  -328.52  0.00020  0.06220                              
+ GAS 1.62599( 10, 10,  3)  1.3D-02  -328.52  0.00020  0.06220                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.01862 0.00000 0.19021         0.1D-03-0.3D-06 0.1D-01         0.22037 0.00004 1.62599                                         
+   1 0.04943 0.00000 0.08307         0.3D-16-0.6D-22-0.6D-15         0.33030 0.00000 0.54595          0.06830                        
+   2 0.03476 0.00000 0.07184         0.3D-16-0.7D-22-0.3D-15         0.16632 0.00000 0.54847          0.87182  0.2678                
+   3 0.02044 0.00000 0.05288         0.4D-16-0.2D-22-0.8D-15         0.12625 0.00000 0.40271          1.11054  0.2398 -0.6044        
+   4 0.00781 0.00000 0.02411        -0.1D-16 0.6D-23 0.2D-15         0.05299 0.00000 0.14512          0.41728 -0.1001  0.0246 -0.8307
+   5 0.00510 0.00000 0.01595        -0.2D-16 0.1D-22 0.2D-15         0.03583 0.00000 0.10575          0.98334 -0.0477  0.0548  0.0591
+   6 0.00098 0.00000 0.00392        -0.8D-17 0.2D-23 0.4D-15         0.00671 0.00000 0.02346          0.65587  0.0032 -0.0171 -0.0721
+   7 0.00032 0.00000 0.00135        -0.3D-17 0.9D-24 0.2D-15         0.00219 0.00000 0.00973          0.77799  0.0004  0.0017  0.0105
+   8 0.00012 0.00000 0.00039        -0.8D-18 0.2D-25 0.4D-16         0.00058 0.00000 0.00148          0.60667 -0.0007  0.0080 -0.0703
+   9 0.00004 0.00000 0.00012        -0.2D-18-0.1D-24 0.2D-16         0.00017 0.00000 0.00064                                         
+  ONLY MAXIMUM MET                      
+  0.6370E-03  0.1626E+01  0.1626E+01  0.1000E-02  0.1000E-03
+       LINIT= 9 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       220        80 NTRAN=       126
+ IT= 2   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00944(  8,  8,  1) -1.5D-06  -218.64  0.00016  0.05371                              
+ WAT 0.00000( 10, 10,  3) -7.1D-09  -395.72  0.00029  0.04916                              
+ GAS 0.20776( 10, 10,  3)  1.0D-03  -395.72  0.00029  0.04916                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00095 0.00000 0.01443        -0.1D-05-0.7D-08 0.1D-02         0.00944 0.00000 0.20776                                         
+   1 0.00044 0.00000 0.00135        -0.1D-18-0.2D-23-0.3D-17         0.00232 0.00000 0.01247          0.12732                        
+   2 0.00045 0.00000 0.00113        -0.1D-19-0.1D-23-0.6D-17         0.00240 0.00000 0.01040          0.15192 -0.3381                
+   3 0.00039 0.00000 0.00105        -0.2D-19-0.8D-24-0.5D-17         0.00210 0.00000 0.00769          1.63642 -0.3222  0.5533        
+   4 0.00021 0.00000 0.00061        -0.5D-18-0.2D-24-0.3D-16         0.00131 0.00000 0.00429          0.87681  0.1007  0.1884 -1.3574
+   5 0.00008 0.00000 0.00027        -0.8D-18 0.1D-24-0.3D-16         0.00053 0.00000 0.00162          0.83598  0.1778 -0.0318 -0.0932
+   6 0.00001 0.00000 0.00007        -0.2D-18-0.1D-25-0.5D-17         0.00011 0.00000 0.00042          0.66802  0.0282 -0.0206 -0.1305
+   7 0.00001 0.00000 0.00003        -0.4D-19-0.1D-25 0.5D-18         0.00005 0.00000 0.00018                                         
+  ONLY MAXIMUM MET                      
+  0.1761E-03  0.2078E+00  0.2078E+00  0.1000E-02  0.1000E-03
+       LINIT= 7 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       204        96 NTRAN=        26
+ IT= 3   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00030(  8,  8,  1) -1.7D-07  -220.41  0.00016  0.05264                              
+ WAT 0.00000(  8,  8,  1) -1.7D-12  -220.41  0.00016  0.05264                              
+ GAS 0.00256( 10, 10,  3)  1.3D-05  -397.32  0.00029  0.04748                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00002 0.00000 0.00016        -0.2D-06-0.2D-11 0.1D-04         0.00030 0.00000 0.00256                                         
+   1 0.00000 0.00000 0.00002        -0.7D-21 0.3D-25 0.1D-19         0.00002 0.00000 0.00016          0.14561                        
+   2 0.00001 0.00000 0.00002        -0.2D-20-0.2D-25 0.3D-19         0.00004 0.00000 0.00013          0.50948 -0.4913                
+   3 0.00000 0.00000 0.00001        -0.5D-21-0.9D-26-0.2D-19         0.00002 0.00000 0.00009                                         
+  TARGET MET                      
+  0.9115E-04  0.1000E-03
+       LINIT= 3 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       238        62 NTRAN=        90
+ IT= 4   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00002(  1,  5,  1)  1.0D-07  -158.07  0.00012  0.01184                              
+ WAT 0.00000( 10, 10,  2) -5.5D-17  -391.18  0.00029  0.06255                              
+ GAS 0.00009(  1,  5,  1) -1.7D-07  -158.07  0.00012  0.01184                              
+
+ STEP   17 TIME=  912.50  DAYS (+182.5  DAYS REPT  4 ITS) (18-APR-1985)          
+  PAV=  6118.2  PSIA   WCT=0.000 GOR=     4.49 MSCF/STB WGR=   0.0000 STB/MSCF   
+
+      PR.RATE   PR.TOTAL  IN.RATE   IN.TOTAL  MAX SATURN CHANGE   MAX TIME TRNC ERR
+
+ OIL   20000.  18250000.       0.         0. -0.072(  9, 10,  1)  0.047(  9,  9,  1)
+ WAT       0.         0.       0.         0.  0.000( 10, 10,  3)  0.000( 10, 10,  1)
+ GAS   89867.  38024142.  100000.  91250000.  0.072(  9, 10,  1) -0.047(  9,  9,  1)
+
+      MAX DP = -397.33( 10, 10,  3)  MAX DRS=  0.0000(  2,  5,  3) 
+ =======================================================
+ TIMING REPORTS AT CPU=     1 SECS - ELAPSED=     1 SECS
+ =======================================================
+ ZZSS    1 12 12
+                RR      1  0  0
+ SR      1  3  3
+ TS      3 71 71
+                NX     17 69 69
+                               WC     79  0  0
+                               LMRS   79  0  0
+                               CONV   79 58 58
+                               LMJC   62  0  0
+                               LXX    62  0  0
+                                              WGIN   62  0  0
+                                              GINV   62  0  0
+                                                             GINV   62  0  0
+                                              WRES   62  0  0
+                                              ITER   62  0  0
+                                                             NORM  333  0  0
+                                                             SRCH  271  0  0
+                                                             WADX  271  0  0
+                                                             ORTH  271  0  0
+                                                             UPDA  271  0  0
+                                              WSOL   62  0  0
+                               XUIT   62 12 12
+                               LC     62  0  0
+ WWX     3  2  2
+ XW      3  0  0
+ YW      1  0  0
+ IT= 0   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.03600( 10,  9,  1)  5.3D-03     0.00  0.00000  0.00000                              
+ WAT 0.00000( 10, 10,  1)  1.7D-11     0.00  0.00000  0.00000                              
+ GAS-0.02864(  6, 10,  1) -1.9D-03     0.00  0.00000  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.01151 0.00000 0.00916         0.5D-02 0.2D-10-0.2D-02         0.03600 0.00000 0.02864                                         
+   1 0.07451 0.00000 0.07154        -0.2D-16-0.5D-21 0.1D-14         0.37962 0.00000 0.49234          0.17900                        
+   2 0.05946 0.00000 0.07429        -0.1D-16-0.4D-21 0.1D-14         0.23980 0.00000 0.54129          1.44825  0.2920                
+   3 0.01680 0.00000 0.03487         0.3D-16 0.1D-23 0.8D-15         0.06427 0.00000 0.27187          0.66183  0.0262 -0.3519        
+   4 0.00892 0.00000 0.01287         0.3D-16 0.2D-22 0.3D-15         0.03680 0.00000 0.06252          0.68908  0.0280 -0.0489 -0.0390
+   5 0.00236 0.00000 0.00535         0.1D-16 0.9D-23 0.9D-16         0.00915 0.00000 0.02266          0.70100 -0.0236  0.0067 -0.1221
+   6 0.00053 0.00000 0.00137         0.5D-18 0.5D-23-0.2D-16         0.00259 0.00000 0.01105          0.64029 -0.0001 -0.0113 -0.0365
+   7 0.00016 0.00000 0.00044        -0.5D-18-0.3D-24-0.2D-16         0.00087 0.00000 0.00315          0.68819  0.0009 -0.0024 -0.0240
+   8 0.00004 0.00000 0.00010        -0.1D-18 0.3D-24-0.3D-17         0.00015 0.00000 0.00073          0.74839 -0.0003  0.0003 -0.0275
+   9 0.00001 0.00000 0.00001        -0.1D-19 0.4D-26-0.1D-17         0.00003 0.00000 0.00011                                         
+  ONLY MAXIMUM MET                      
+  0.1076E-03  0.5413E+00  0.3600E-01  0.1000E-02  0.1000E-03
+       LINIT= 9 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       229        71 NTRAN=        69
+ IT= 1   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.01703( 10, 10,  1)  9.6D-06  -231.99  0.00017  0.02474                              
+ WAT 0.00000( 10, 10,  3) -5.2D-08  -234.49  0.00017  0.01521                              
+ GAS-0.20916( 10, 10,  1)  2.6D-04  -231.99  0.00017  0.02474                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00134 0.00000 0.02169         0.1D-04-0.5D-07 0.3D-03         0.01703 0.00000 0.20916                                         
+   1 0.00144 0.00000 0.00275         0.6D-19 0.1D-23 0.1D-16         0.00540 0.00000 0.02064          0.67196                        
+   2 0.00098 0.00000 0.00124        -0.1D-17 0.3D-23 0.1D-16         0.00552 0.00000 0.00745          0.20877 -0.4661                
+   3 0.00066 0.00000 0.00122        -0.8D-18 0.1D-23 0.7D-17         0.00255 0.00000 0.00751          0.89539 -0.2391  0.2398        
+   4 0.00024 0.00000 0.00048        -0.8D-18 0.6D-24-0.7D-17         0.00093 0.00000 0.00355          0.64734  0.0024 -0.0188 -0.1587
+   5 0.00008 0.00000 0.00019        -0.4D-18 0.9D-24-0.3D-17         0.00029 0.00000 0.00092          0.88497  0.0091 -0.0206 -0.0093
+   6 0.00002 0.00000 0.00004        -0.3D-19 0.3D-24 0.9D-18         0.00009 0.00000 0.00037          0.71531 -0.0070  0.0077 -0.0588
+   7 0.00000 0.00000 0.00001         0.1D-19 0.4D-25 0.3D-18         0.00003 0.00000 0.00009                                         
+  TARGET MET                      
+  0.8874E-04  0.1000E-03
+       LINIT= 7 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       214        86 NTRAN=        31
+ IT= 2   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00032(  8,  8,  1) -3.7D-08  -176.36  0.00013  0.01662                              
+ WAT 0.00000(  8,  8,  1) -3.1D-11  -176.36  0.00013  0.01662                              
+ GAS-0.00362( 10, 10,  1)  3.1D-07  -235.80  0.00017  0.02256                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00003 0.00000 0.00025        -0.4D-07-0.3D-10 0.3D-06         0.00032 0.00000 0.00362                                         
+   1 0.00000 0.00000 0.00001         0.2D-20 0.1D-25 0.3D-19         0.00001 0.00000 0.00006                                         
+  TARGET MET                      
+  0.5687E-04  0.1000E-03
+       LINIT= 1 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       213        87 NTRAN=        37
+ IT= 3   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00001(  5,  4,  1) -8.7D-09  -146.60  0.00011  0.00537                              
+ WAT 0.00000( 10, 10,  1) -2.4D-17  -235.78  0.00017  0.02259                              
+ GAS 0.00006( 10, 10,  1)  5.2D-09  -235.78  0.00017  0.02259                              
+
+ STEP   18 TIME= 1000.00  DAYS ( +87.5  DAYS REPT  3 ITS) (15-JLY-1985)          
+  PAV=  5963.7  PSIA   WCT=0.000 GOR=     5.59 MSCF/STB WGR=   0.0000 STB/MSCF   
+
+      PR.RATE   PR.TOTAL  IN.RATE   IN.TOTAL  MAX SATURN CHANGE   MAX TIME TRNC ERR
+
+ OIL   20000.  20000000.       0.         0. -0.025(  9, 10,  1)  0.010(  9, 10,  1)
+ WAT       0.         0.       0.         0.  0.000( 10, 10,  3)  0.000(  8,  6,  1)
+ GAS  111718.  47799507.  100000. 100000000.  0.025(  9, 10,  1) -0.010(  9, 10,  1)
+
+      MAX DP = -238.82( 10, 10,  3)  MAX DRS=  0.0000( 10,  9,  3) 
+
+ @--MESSAGE  AT TIME     1000.0   DAYS    (15-JLY-1985):
+ @           RESTART FILE WRITTEN   REPORT     4                             
+ =======================================================
+ TIMING REPORTS AT CPU=     1 SECS - ELAPSED=     1 SECS
+ =======================================================
+ ZZSS    1 11 11
+                RR      1  0  0
+ SR      1  3  3
+ TS      4 64 64
+                NX     18 62 62
+                               WC     83  0  0
+                               LMRS   83  0  0
+                               CONV   83 51 51
+                               LMJC   65  0  0
+                               LXX    65  0  0
+                                              WGIN   65  0  0
+                                              GINV   65  0  0
+                                                             GINV   65  0  0
+                                              WRES   65  0  0
+                                              ITER   65  0  0
+                                                             NORM  353  0  0
+                                                             SRCH  288  0  0
+                                                             WADX  288  0  0
+                                                             ORTH  288  0  0
+                                                             UPDA  288  0  0
+                                              WSOL   65  0  0
+                               XUIT   65 11 11
+                               LC     65  0  0
+ WWX     4  2  2
+ XW      4  0  0
+ YW      2  0  0
+ IT= 0   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.03078(  9, 10,  1)  6.1D-03     0.00  0.00000  0.00000                              
+ WAT 0.00000( 10, 10,  1)  6.3D-11     0.00  0.00000  0.00000                              
+ GAS 0.02246(  1,  1,  1)  2.5D-03     0.00  0.00000  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.01073 0.00000 0.00803         0.6D-02 0.6D-10 0.2D-02         0.03078 0.00000 0.02246                                         
+   1 0.13874 0.00000 0.13700        -0.3D-15-0.1D-20 0.2D-14         0.81161 0.00000 0.91246          0.12207                        
+   2 0.11347 0.00000 0.13823        -0.2D-15-0.1D-20 0.1D-14         0.55452 0.00000 1.04372          1.71417  0.4437                
+   3 0.03524 0.00000 0.07891        -0.1D-15-0.4D-21 0.1D-14         0.16175 0.00000 0.64726          0.70564  0.0679 -0.7326        
+   4 0.01872 0.00000 0.03045        -0.5D-16-0.2D-21 0.5D-15         0.08238 0.00000 0.17732          0.72204  0.0208 -0.0682 -0.0296
+   5 0.00481 0.00000 0.01227        -0.1D-16-0.3D-22 0.1D-15         0.01729 0.00000 0.05258          0.75791 -0.0203 -0.0425 -0.1197
+   6 0.00106 0.00000 0.00289        -0.1D-17-0.3D-24 0.6D-16         0.00507 0.00000 0.02402          0.65969  0.0005 -0.0216 -0.0586
+   7 0.00029 0.00000 0.00105         0.6D-18 0.1D-23 0.1D-16         0.00148 0.00000 0.00813          0.65846  0.0006 -0.0016 -0.0247
+   8 0.00008 0.00000 0.00025         0.5D-19 0.8D-24 0.2D-17         0.00034 0.00000 0.00187          0.71131 -0.0004  0.0001 -0.0431
+   9 0.00001 0.00000 0.00004         0.3D-19 0.6D-25-0.8D-18         0.00006 0.00000 0.00032                                         
+  ONLY MAXIMUM MET                      
+  0.3241E-03  0.1044E+01  0.3078E-01  0.1000E-02  0.1000E-03
+       LINIT= 9 NSCHP=         6 NCHOP=         0 NSTAT1,2,3=         0       228        72 NTRAN=        73
+ IT= 1   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.17331( 10, 10,  3) -8.2D-04  -300.37  0.00022  0.01153                              
+ WAT-0.00003( 10,  9,  3) -7.9D-07  -284.25  0.00018  0.00000                              
+ GAS-0.80373( 10, 10,  3) -3.8D-03  -300.37  0.00022  0.01153                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.01010 0.00000 0.06177        -0.8D-03-0.8D-06-0.4D-02         0.17331 0.00003 0.80373                                         
+   1 0.02007 0.00000 0.04495         0.6D-16 0.3D-22 0.2D-15         0.08110 0.00000 0.40523          0.38513                        
+   2 0.01806 0.00000 0.02911         0.3D-16 0.6D-22 0.1D-15         0.09443 0.00000 0.20730          0.18706  0.0548                
+   3 0.01473 0.00000 0.02916         0.3D-16 0.5D-22 0.8D-16         0.05744 0.00000 0.19826          1.36291  0.0728  0.2211        
+   4 0.00589 0.00000 0.01288        -0.4D-17 0.2D-22 0.1D-17         0.02444 0.00000 0.09329          0.67264  0.0800  0.0746 -0.6626
+   5 0.00183 0.00000 0.00377        -0.1D-16 0.1D-22-0.2D-16         0.00688 0.00000 0.02011          0.72515  0.0299 -0.0458  0.0027
+   6 0.00047 0.00000 0.00139        -0.4D-17 0.5D-23 0.2D-16         0.00186 0.00000 0.00785          0.73567  0.0041 -0.0101 -0.0679
+   7 0.00012 0.00000 0.00037        -0.7D-18 0.2D-23 0.2D-16         0.00074 0.00000 0.00277          0.69459  0.0010 -0.0027  0.0082
+   8 0.00003 0.00000 0.00009        -0.3D-18 0.6D-24 0.6D-17         0.00012 0.00000 0.00039                                         
+  ONLY MAXIMUM MET                      
+  0.3876E-03  0.8037E+00  0.8037E+00  0.1000E-02  0.1000E-03
+       LINIT= 8 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       233        67 NTRAN=       101
+ IT= 2   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00139( 10, 10,  1)  3.0D-07  -123.57  0.00009  0.01899                              
+ WAT 0.00000( 10, 10,  3) -6.7D-09  -122.88  0.00009  0.01083                              
+ GAS-0.02724( 10, 10,  1)  5.0D-06  -123.57  0.00009  0.01899                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00013 0.00000 0.00275         0.3D-06-0.7D-08 0.5D-05         0.00139 0.00000 0.02724                                         
+   1 0.00008 0.00000 0.00014         0.6D-19 0.6D-24 0.7D-18         0.00053 0.00000 0.00086          0.18270                        
+   2 0.00005 0.00000 0.00012        -0.7D-20 0.8D-24 0.7D-18         0.00021 0.00000 0.00074          0.65080  0.1699                
+   3 0.00002 0.00000 0.00004         0.2D-19 0.3D-24-0.2D-18         0.00010 0.00000 0.00031          0.51331  0.0502 -0.3224        
+   4 0.00001 0.00000 0.00002         0.3D-19 0.1D-24-0.4D-18         0.00004 0.00000 0.00012          0.72648  0.0121 -0.0798  0.0248
+   5 0.00000 0.00000 0.00001         0.2D-19 0.6D-25-0.2D-18         0.00001 0.00000 0.00004                                         
+  TARGET MET                      
+  0.4053E-04  0.1000E-03
+       LINIT= 5 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       219        81 NTRAN=        86
+ IT= 3   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00001(  2,  8,  1) -9.4D-08  -191.69  0.00014  0.00603                              
+ WAT 0.00000(  9, 10,  1) -9.8D-15  -157.24  0.00012  0.02093                              
+ GAS-0.00005( 10, 10,  2)  6.4D-08  -123.22  0.00009  0.01597                              
+
+
+ @--MESSAGE  AT TIME     1000.0   DAYS    (15-JLY-1985):
+ @           ******************************************                      
+ @           * WELL PRODUCER HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME   1000.00   DAYS  .          *                      
+ @           ******************************************                      
+ STEP   19 TIME= 1100.00  DAYS (+100.0  DAYS REPT  3 ITS) (23-OCT-1985)          
+  PAV=  5774.9  PSIA   WCT=0.000 GOR=     6.56 MSCF/STB WGR=   0.0000 STB/MSCF   
+
+      PR.RATE   PR.TOTAL  IN.RATE   IN.TOTAL  MAX SATURN CHANGE   MAX TIME TRNC ERR
+
+ OIL   18158.  21815835.       0.         0. -0.021( 10,  5,  1)  0.009(  9,  8,  1)
+ WAT       0.         0.       0.         0.  0.000(  1,  1,  3)  0.000( 10, 10,  3)
+ GAS  119173.  59716815.  100000. 110000000.  0.021( 10,  5,  1) -0.009(  9,  8,  1)
+
+      MAX DP = -192.86(  1,  1,  3)  MAX DRS=  0.0000(  6,  8,  3) 
+ =======================================================
+ TIMING REPORTS AT CPU=     1 SECS - ELAPSED=     1 SECS
+ =======================================================
+ ZZSS    1 10 10
+                RR      1  0  0
+ SR      1  3  3
+ TS      5 57 57
+                NX     19 56 56
+                               WC     87  0  0
+                               LMRS   87  0  0
+                               CONV   87 46 46
+                               LMJC   68  0  0
+                               LXX    68  0  0
+                                              WGIN   68  0  0
+                                              GINV   68  0  0
+                                                             GINV   68  0  0
+                                              WRES   68  0  0
+                                              ITER   68  0  0
+                                                             NORM  378  0  0
+                                                             SRCH  310  0  0
+                                                             WADX  310  0  0
+                                                             ORTH  310  0  0
+                                                             UPDA  310  0  0
+                                              WSOL   68  0  0
+                               XUIT   68 10 10
+                               LC     68  0  0
+ WWX     5  1  1
+ XW      5  1  1
+ YW      2  0  0
+ IT= 0   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.02371(  5, 10,  1)  5.5D-03     0.00  0.00000  0.00000                              
+ WAT 0.00000( 10, 10,  1)  8.4D-11     0.00  0.00000  0.00000                              
+ GAS 0.02834(  1,  1,  1)  4.1D-03     0.00  0.00000  0.00000                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00871 0.00000 0.00951         0.6D-02 0.8D-10 0.4D-02         0.02371 0.00000 0.02834                                         
+   1 0.15248 0.00000 0.16970         0.1D-16-0.2D-20-0.5D-14         0.94620 0.00000 1.23692          0.14025                        
+   2 0.11290 0.00000 0.16022         0.3D-16-0.1D-20-0.4D-14         0.54019 0.00000 1.23661          1.19885  0.3395                
+   3 0.03328 0.00000 0.07599         0.6D-16-0.4D-21 0.2D-14         0.14766 0.00000 0.63299          0.65497  0.0635 -0.5143        
+   4 0.01606 0.00000 0.02820         0.3D-16-0.1D-21 0.3D-14         0.07348 0.00000 0.16237          0.70964  0.0072  0.0125  0.0195
+   5 0.00365 0.00000 0.01018         0.1D-16-0.3D-22 0.7D-15         0.01379 0.00000 0.04274          0.73416 -0.0076 -0.0130 -0.0675
+   6 0.00093 0.00000 0.00222         0.2D-17-0.5D-23 0.6D-16         0.00446 0.00000 0.01585          0.60453 -0.0003 -0.0077 -0.0581
+   7 0.00020 0.00000 0.00078        -0.2D-18-0.9D-24-0.3D-16         0.00092 0.00000 0.00580          0.72164  0.0003  0.0000 -0.0062
+   8 0.00005 0.00000 0.00017        -0.3D-19 0.6D-24 0.2D-17         0.00023 0.00000 0.00140          0.74524 -0.0002  0.0001 -0.0385
+   9 0.00001 0.00000 0.00003        -0.7D-19 0.8D-25-0.1D-17         0.00003 0.00000 0.00016                                         
+  ONLY MAXIMUM MET                      
+  0.1586E-03  0.1237E+01  0.2834E-01  0.1000E-02  0.1000E-03
+       LINIT= 9 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       234        66 NTRAN=        39
+ IT= 1   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00315( 10,  9,  1)  1.7D-05  -130.44  0.00010  0.01518                              
+ WAT 0.00000(  1,  1,  3) -7.7D-08  -194.45  0.00014  0.00371                              
+ GAS-0.44813( 10, 10,  1) -1.7D-04   -93.91  0.00007  0.02291                              
+
+ NON-CONVERGENCE BECAUSE MATERIAL BALANCE TOLERANCE EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00046 0.00000 0.03207         0.2D-04-0.8D-07-0.2D-03         0.00315 0.00000 0.44813                                         
+   1 0.00162 0.00000 0.00208         0.2D-17 0.4D-24-0.3D-16         0.00966 0.00000 0.01180          0.15525                        
+   2 0.00127 0.00000 0.00195         0.2D-17-0.2D-23-0.3D-16         0.00581 0.00000 0.01296          1.37270  0.3334                
+   3 0.00045 0.00000 0.00096        -0.3D-19-0.6D-24-0.2D-16         0.00222 0.00000 0.00768          0.76190  0.1549 -0.5252        
+   4 0.00015 0.00000 0.00028        -0.4D-18-0.7D-24-0.1D-16         0.00065 0.00000 0.00142          0.82031 -0.0198  0.0086  0.0179
+   5 0.00005 0.00000 0.00010        -0.1D-18-0.2D-24-0.3D-17         0.00022 0.00000 0.00076          0.48623  0.0196 -0.0278 -0.0754
+   6 0.00001 0.00000 0.00004        -0.3D-19 0.5D-25-0.1D-17         0.00005 0.00000 0.00028                                         
+  ONLY MAXIMUM MET                      
+  0.2755E-03  0.4481E+00  0.4481E+00  0.1000E-02  0.1000E-03
+       LINIT= 6 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       225        75 NTRAN=        77
+ IT= 2   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00009(  9, 10,  1) -1.1D-07  -127.82  0.00009  0.01593                              
+ WAT 0.00000(  6, 10,  1) -1.3D-11  -176.02  0.00013  0.01524                              
+ GAS 0.00609( 10, 10,  1)  5.5D-09   -92.02  0.00007  0.02518                              
+
+ NON-CONVERGENCE BECAUSE TOLERANCE FOR MAXIMUM NORM EXCEEDED
+ LXITR  ENTERED - TRGLCV= 0.00010 LITMIN,MAX=    1   25                                       
+  IT  ..........RMS ERRORS..........  ..........SUM ERRORS..........  ..........MAX ERRORS..........     STEP   BETA........
+
+   0 0.00002 0.00000 0.00043        -0.1D-06-0.1D-10 0.5D-08         0.00009 0.00000 0.00609                                         
+   1 0.00002 0.00000 0.00005         0.4D-20-0.2D-25 0.4D-19         0.00014 0.00000 0.00026          0.21533                        
+   2 0.00000 0.00000 0.00002        -0.7D-20-0.1D-25 0.4D-19         0.00003 0.00000 0.00015          0.45546  0.0519                
+   3 0.00000 0.00000 0.00000        -0.3D-20 0.5D-26-0.1D-19         0.00001 0.00000 0.00005                                         
+  TARGET MET                      
+  0.5125E-04  0.1000E-03
+       LINIT= 3 NSCHP=         0 NCHOP=         0 NSTAT1,2,3=         0       246        54 NTRAN=        35
+ IT= 3   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00001(  9,  2,  1)  5.0D-08  -187.43  0.00014  0.00923                              
+ WAT 0.00000( 10, 10,  1) -1.1D-16   -92.03  0.00007  0.02514                              
+ GAS-0.00005(  4,  2,  1) -7.8D-08  -189.03  0.00014  0.00280                              
+
+ STEP   20 TIME= 1200.00  DAYS (+100.0  DAYS REPT  3 ITS) (31-JAN-1986)          
+  PAV=  5593.5  PSIA   WCT=0.000 GOR=     7.30 MSCF/STB WGR=   0.0000 STB/MSCF   
+
+      PR.RATE   PR.TOTAL  IN.RATE   IN.TOTAL  MAX SATURN CHANGE   MAX TIME TRNC ERR
+
+ OIL   16570.  23472786.       0.         0. -0.025( 10, 10,  1)  0.006(  8, 10,  1)
+ WAT       0.         0.       0.         0.  0.000(  1,  1,  3)  0.000( 10, 10,  3)
+ GAS  120948.  71811587.  100000. 120000000.  0.025( 10, 10,  1)  0.006( 10, 10,  1)
+
+      MAX DP = -192.04(  1,  1,  3)  MAX DRS=  0.0000(  6,  1,  3) 
+
+ @--MESSAGE  AT TIME     1200.0   DAYS    (31-JAN-1986):
+ @           RESTART FILE WRITTEN   REPORT     6                             
+ =======================================================
+ TIMING REPORTS AT CPU=     1 SECS - ELAPSED=     1 SECS
+ =======================================================
+ ZZSS    1  9  9
+                RR      1  0  0
+ SR      1  3  3
+ TS      6 57 57
+                NX     20 55 55
+                               WC     91  0  0
+                               LMRS   91  0  0
+                               CONV   91 45 45
+                               LMJC   71  0  0
+                               LXX    71  0  0
+                                              WGIN   71  0  0
+                                              GINV   71  0  0
+                                                             GINV   71  0  0
+                                              WRES   71  0  0
+                                              ITER   71  0  0
+                                                             NORM  399  0  0
+                                                             SRCH  328  0  0
+                                                             WADX  328  0  0
+                                                             ORTH  328  0  0
+                                                             UPDA  328  0  0
+                                              WSOL   71  0  0
+                               XUIT   71  9  9
+                               LC     71  0  0
+ WWX     6  1  1
+ XW      6  3  3
+ YW      3  0  0
